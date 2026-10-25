@@ -117,3 +117,9 @@ Large files are excluded and can be regenerated:
 | Noisy mixtures | deterministic: the same recording, excerpt, seed and SNR always give the same mixture (`mix_to_wav` in `run_noise.py`); `--keep-audio` keeps them on disk |
 
 TransKun's MIDI predictions (`predictions/`) are included, so all analyses can be rerun without transcribing again.
+
+## Licences
+
+- PianoVAM is licensed under CC BY-NC 4.0. The predictions and results in this repository are derived from it and are shared for non-commercial research under the same licence.
+- Noise sources keep their own licences (LibriSpeech CC BY 4.0, DEMAND, public-domain music); see `noise_bank/noise_bank.json`.
+- TransKun and mir_eval are used unchanged under their own licences.
