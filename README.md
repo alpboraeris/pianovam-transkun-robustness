@@ -1,8 +1,8 @@
-# TransKun on PianoVAM: robustness to noise
+# Transkun on PianoVAM: robustness to noise
 
-This repository evaluates the TransKun piano transcription model on the PianoVAM dataset. It answers three questions:
+This repository evaluates the Transkun piano transcription model on the PianoVAM dataset. It answers three questions:
 
-1. How well does TransKun transcribe clean real piano recordings?
+1. How well does Transkun transcribe clean real piano recordings?
 2. How does it degrade under additive noise (speech, environment, other music, white noise) at controlled SNR levels?
 3. Which notes does it miss, and how does the sustain pedal affect its note endings?
 
@@ -34,7 +34,7 @@ Run in this order. Every step is restartable and skips work that already exists.
 
 ## Model
 
-TransKun 2.0.1 with its bundled checkpoint `pretrained/2.0.pt` (sha256 `50a80010effc2a59ffcd068a95cd2b29bd7f23a27a3515bc3ccd209c89a3d44c`). It predicts notes and the sustain pedal as separate outputs; notes are not extended by the pedal.
+Transkun 2.0.1 with its bundled checkpoint `pretrained/2.0.pt` (sha256 `50a80010effc2a59ffcd068a95cd2b29bd7f23a27a3515bc3ccd209c89a3d44c`). It predicts notes and the sustain pedal as separate outputs; notes are not extended by the pedal.
 
 ## Metrics
 
@@ -73,7 +73,7 @@ Offset and frame metrics are reported against the key release (primary) and the 
 
 False positives are classified the same way, with "harmonic" (12, 19 or 24 semitones) instead of "octave" and "spurious" when nothing is near. The thresholds beyond 50 ms are heuristic choices.
 
-**Note endings and pedal** (`analyze_offsets.py`). For every correctly found note: signed error = predicted end − key release, split by whether the pedal was down (CC64 ≥ 64) at the key release. Pedal-up and pedal-down notes are compared within the same recording. Also reported: TransKun's pedal detection (frame F1 at 60 Hz).
+**Note endings and pedal** (`analyze_offsets.py`). For every correctly found note: signed error = predicted end − key release, split by whether the pedal was down (CC64 ≥ 64) at the key release. Pedal-up and pedal-down notes are compared within the same recording. Also reported: Transkun's pedal detection (frame F1 at 60 Hz).
 
 ## Main results (validation)
 
@@ -116,10 +116,10 @@ Large files are excluded and can be regenerated:
 | Noise excerpts (`noise_bank/*.wav`) | `build_noise_bank.py` (compare the new sha256 values with `noise_bank.json`) |
 | Noisy mixtures | deterministic: the same recording, excerpt, seed and SNR always give the same mixture (`mix_to_wav` in `run_noise.py`); `--keep-audio` keeps them on disk |
 
-TransKun's MIDI predictions (`predictions/`) are included, so all analyses can be rerun without transcribing again.
+Transkun's MIDI predictions (`predictions/`) are included, so all analyses can be rerun without transcribing again.
 
 ## Licences
 
 - PianoVAM is licensed under CC BY-NC 4.0. The predictions and results in this repository are derived from it and are shared for non-commercial research under the same licence.
 - Noise sources keep their own licences (LibriSpeech CC BY 4.0, DEMAND, public-domain music); see `noise_bank/noise_bank.json`.
-- TransKun and mir_eval are used unchanged under their own licences.
+- Transkun and mir_eval are used unchanged under their own licences.
