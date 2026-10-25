@@ -1,4 +1,4 @@
-# TransKun on PianoVAM: robustness to noise and the sustain pedal
+# TransKun on PianoVAM: robustness to noise
 
 This repository evaluates the TransKun piano transcription model on the PianoVAM dataset. It answers three questions:
 
