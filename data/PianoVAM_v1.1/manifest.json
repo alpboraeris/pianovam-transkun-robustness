@@ -1,0 +1,993 @@
+{
+  "dataset": "PianoVAM/PianoVAM_v1",
+  "revision": "1f039ab9d6128626bff708faad6472d220b50eaa",
+  "last_modified": "2026-09-27 13:19:46+00:00",
+  "split_source": "metadata.json field 'split'",
+  "splits": [
+    "valid",
+    "test"
+  ],
+  "modalities": [
+    "audio",
+    "midi",
+    "tsv"
+  ],
+  "video_ids": [],
+  "created_utc": "2026-10-04T19:15:03+00:00",
+  "environment": {
+    "python": "3.12.0",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "huggingface_hub": "2.1.1",
+    "mido": "1.3.3",
+    "soundfile": "0.14.0"
+  },
+  "metadata_json": {
+    "checksum_type": "git-sha1",
+    "checksum": "911f1ef6e425498142506fba324325b170e98c1d",
+    "checksum_ok": true,
+    "size_bytes": 66823,
+    "size_ok": true
+  },
+  "counts": {
+    "valid": 9,
+    "test": 9
+  },
+  "recordings": [
+    {
+      "record_time": "2024-02-14_19-55-17",
+      "split": "test",
+      "composer": "C. Saint-Saens",
+      "piece": "Piano Concerto No.2",
+      "performance_method": "Solo",
+      "meta_dur_s": 755.285,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "252b1f71086a963773bb58f8c1cb6a7378710de4274f18d9b36211ce1fdc1b3a",
+          "checksum_ok": true,
+          "size_bytes": 66616212,
+          "size_ok": true,
+          "path": "Audio\\2024-02-14_19-55-17.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "6424a9fe167599bd5f21c111032d6ec2faa51622",
+          "checksum_ok": true,
+          "size_bytes": 57040,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-14_19-55-17.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "17986f4fed930f49692394a31421cf626d50d06a",
+          "checksum_ok": true,
+          "size_bytes": 218000,
+          "size_ok": true,
+          "path": "TSV\\2024-02-14_19-55-17.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 755.285,
+        "subtype": "PCM_16",
+        "midi_notes": 5629,
+        "midi_cc64_events": 3916,
+        "midi_cc64_down": 3422,
+        "midi_dur_s": 756.077,
+        "tsv_rows": 5629,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": -0.792
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-14_20-10-08",
+      "split": "test",
+      "composer": "N. Kapustin",
+      "piece": "Concert Etude No.7",
+      "performance_method": "Solo",
+      "meta_dur_s": 1299.84,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "52aa0d155308700996d955464730802b682b5ac98e983d92cf7f340e5341b6c8",
+          "checksum_ok": true,
+          "size_bytes": 114645932,
+          "size_ok": true,
+          "path": "Audio\\2024-02-14_20-10-08.wav"
+        },
+        "midi": {
+          "checksum_type": "sha256",
+          "checksum": "20c6c51ffe93843c89378b9a1715035df18c57dbe13593cf5a79446fbec661f9",
+          "checksum_ok": true,
+          "size_bytes": 106252,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-14_20-10-08.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "d2d093b52a21852f26b386eb32ac75fb3f059caf",
+          "checksum_ok": true,
+          "size_bytes": 370465,
+          "size_ok": true,
+          "path": "TSV\\2024-02-14_20-10-08.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 1299.84,
+        "subtype": "PCM_16",
+        "midi_notes": 9357,
+        "midi_cc64_events": 12338,
+        "midi_cc64_down": 10438,
+        "midi_dur_s": 1300.284,
+        "tsv_rows": 9357,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": -0.444
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-15_20-17-26",
+      "split": "test",
+      "composer": "R. Schubert",
+      "piece": "Piano Sonata No.19",
+      "performance_method": "Solo",
+      "meta_dur_s": 536.384,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "34116e9cc8dee8f862dbf90b6c2f8ca217e3af9f37e6386fe05038efe79ca542",
+          "checksum_ok": true,
+          "size_bytes": 47309114,
+          "size_ok": true,
+          "path": "Audio\\2024-02-15_20-17-26.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "629af33a9c5a5d3bf0b33e631d37fd63107c3216",
+          "checksum_ok": true,
+          "size_bytes": 43703,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-15_20-17-26.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "6ee859e92eab99de36fb2d38261f4206ca18c211",
+          "checksum_ok": true,
+          "size_bytes": 193805,
+          "size_ok": true,
+          "path": "TSV\\2024-02-15_20-17-26.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 536.384,
+        "subtype": "PCM_16",
+        "midi_notes": 5045,
+        "midi_cc64_events": 3232,
+        "midi_cc64_down": 2488,
+        "midi_dur_s": 533.268,
+        "tsv_rows": 5045,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 3.116
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-15_20-47-59",
+      "split": "test",
+      "composer": "N. Tsuru",
+      "piece": "Last Carnival",
+      "performance_method": "Solo",
+      "meta_dur_s": 307.499,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "41e4e208e89ffccfa04c8e1ade2bf874234850bae37c5cb90a839ffec37c6b98",
+          "checksum_ok": true,
+          "size_bytes": 27121428,
+          "size_ok": true,
+          "path": "Audio\\2024-02-15_20-47-59.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "803965b31d38019a8ac9c0051b807b40c454aa1e",
+          "checksum_ok": true,
+          "size_bytes": 15099,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-15_20-47-59.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "8e9f6cb2710142a407c9e055854a072b515d21b3",
+          "checksum_ok": true,
+          "size_bytes": 63329,
+          "size_ok": true,
+          "path": "TSV\\2024-02-15_20-47-59.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 307.499,
+        "subtype": "PCM_16",
+        "midi_notes": 1662,
+        "midi_cc64_events": 1173,
+        "midi_cc64_down": 1113,
+        "midi_dur_s": 304.474,
+        "tsv_rows": 1662,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 3.025
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-17_21-44-37",
+      "split": "test",
+      "composer": "Yiruma",
+      "piece": "Kiss The Rain",
+      "performance_method": "Solo",
+      "meta_dur_s": 177.835,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "bbf452d345d8fa9fbd4bee51bbb3ac269f49d9b9e6f303e19d8f3473e5b176c8",
+          "checksum_ok": true,
+          "size_bytes": 15685062,
+          "size_ok": true,
+          "path": "Audio\\2024-02-17_21-44-37.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "e6b6dd84136049aa7b1f59188b8d1f25933340ae",
+          "checksum_ok": true,
+          "size_bytes": 6190,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-17_21-44-37.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "a9b5fce5c531f0a37454c320fa0d0283202a67cd",
+          "checksum_ok": true,
+          "size_bytes": 21088,
+          "size_ok": true,
+          "path": "TSV\\2024-02-17_21-44-37.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 177.835,
+        "subtype": "PCM_16",
+        "midi_notes": 563,
+        "midi_cc64_events": 720,
+        "midi_cc64_down": 617,
+        "midi_dur_s": 171.292,
+        "tsv_rows": 563,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 6.543
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_14-10-41",
+      "split": "test",
+      "composer": "D. Scarlatti",
+      "piece": "Sonata K.360",
+      "performance_method": "Solo",
+      "meta_dur_s": 291.952,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "249d5a3ecc526e7f0d190dd5710a232ac7b6d30c3d8f16863897b0049093c2f0",
+          "checksum_ok": true,
+          "size_bytes": 25750178,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_14-10-41.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "d3221873f54d29dea3c4bff8db304531996fcc45",
+          "checksum_ok": true,
+          "size_bytes": 16317,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_14-10-41.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "b6a03c3e6053f758f07f818838174b4005d0d828",
+          "checksum_ok": true,
+          "size_bytes": 49062,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_14-10-41.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 291.952,
+        "subtype": "PCM_16",
+        "midi_notes": 1292,
+        "midi_cc64_events": 2348,
+        "midi_cc64_down": 1236,
+        "midi_dur_s": 285.916,
+        "tsv_rows": 1292,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 6.036
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_21-04-45",
+      "split": "test",
+      "composer": "Junhyung",
+      "piece": "Improvisation",
+      "performance_method": "Solo",
+      "meta_dur_s": 472.676,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "ce5cb7004432cd2c0253839808bd497df1a9fb0ee1bcffadf8394b8a389ed8f0",
+          "checksum_ok": true,
+          "size_bytes": 41690080,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_21-04-45.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "c7acb6a83dda89f48ea9704d065d716c6f8f2917",
+          "checksum_ok": true,
+          "size_bytes": 24761,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_21-04-45.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "621d576651d6d7f0181ff7ffba2e6b975917f835",
+          "checksum_ok": true,
+          "size_bytes": 105513,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_21-04-45.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 472.676,
+        "subtype": "PCM_16",
+        "midi_notes": 2729,
+        "midi_cc64_events": 2004,
+        "midi_cc64_down": 1203,
+        "midi_dur_s": 463.976,
+        "tsv_rows": 2729,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 8.7
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-03_00-07-46",
+      "split": "test",
+      "composer": "J. S. Bach",
+      "piece": "Italian Concerto Mvt.3",
+      "performance_method": "Solo",
+      "meta_dur_s": 1606.913,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "a2282c5793022a089e4632d5366fe724c445aea09f39136b98699236e270ce47",
+          "checksum_ok": true,
+          "size_bytes": 141729750,
+          "size_ok": true,
+          "path": "Audio\\2024-09-03_00-07-46.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "c46d879df5ec5439600ef9e6147dc331216c65fd",
+          "checksum_ok": true,
+          "size_bytes": 71020,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-03_00-07-46.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "e01a21ae72acc4f981b4ca5c3d69d407c068e7f3",
+          "checksum_ok": true,
+          "size_bytes": 436881,
+          "size_ok": true,
+          "path": "TSV\\2024-09-03_00-07-46.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 1606.913,
+        "subtype": "PCM_16",
+        "midi_notes": 10929,
+        "midi_cc64_events": 229,
+        "midi_cc64_down": 83,
+        "midi_dur_s": 1601.312,
+        "tsv_rows": 10929,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 5.601
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-03_00-44-45",
+      "split": "test",
+      "composer": "Hanon",
+      "piece": "Hanon Exercises No.1",
+      "performance_method": "Solo",
+      "meta_dur_s": 601.964,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "f152ae4a474a29cd823dcf5fe1fe780525db86a6b55a41f64f16acd753eb9072",
+          "checksum_ok": true,
+          "size_bytes": 53093240,
+          "size_ok": true,
+          "path": "Audio\\2024-09-03_00-44-45.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "a9116b6f4569776adb07ee5100384104b05d5f4a",
+          "checksum_ok": true,
+          "size_bytes": 31785,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-03_00-44-45.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "be16e4560220278e1abcbc2f497ec927b2e4ac22",
+          "checksum_ok": true,
+          "size_bytes": 193548,
+          "size_ok": true,
+          "path": "TSV\\2024-09-03_00-44-45.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 601.964,
+        "subtype": "PCM_16",
+        "midi_notes": 5035,
+        "midi_cc64_events": 20,
+        "midi_cc64_down": 9,
+        "midi_dur_s": 597.718,
+        "tsv_rows": 5035,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 4.246
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-15_20-07-54",
+      "split": "valid",
+      "composer": "F. Chopin",
+      "piece": "Grande Valse Brillante, Op.18",
+      "performance_method": "Solo",
+      "meta_dur_s": 466.773,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "0462173074cd7ddba5f9b5b81c7e7e86d10f4297c1e964f5a0f53a4437db504a",
+          "checksum_ok": true,
+          "size_bytes": 41169452,
+          "size_ok": true,
+          "path": "Audio\\2024-02-15_20-07-54.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "59ee938fd9fbfde4855ce57d4ddcf197e1ca608b",
+          "checksum_ok": true,
+          "size_bytes": 45182,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-15_20-07-54.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "0f35deab448a1fd35ddc87e1dd98f7cb90289226",
+          "checksum_ok": true,
+          "size_bytes": 210353,
+          "size_ok": true,
+          "path": "TSV\\2024-02-15_20-07-54.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 466.773,
+        "subtype": "PCM_16",
+        "midi_notes": 5482,
+        "midi_cc64_events": 3018,
+        "midi_cc64_down": 2292,
+        "midi_dur_s": 461.504,
+        "tsv_rows": 5482,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 5.269
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-15_20-38-23",
+      "split": "valid",
+      "composer": "T. Badarzewska",
+      "piece": "The Virgin's Prayer",
+      "performance_method": "Solo",
+      "meta_dur_s": 427.968,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "9abad0663c5e22ae6cc99920ddc159d24c44b7a76627a1773dd65ea604182f3a",
+          "checksum_ok": true,
+          "size_bytes": 37746822,
+          "size_ok": true,
+          "path": "Audio\\2024-02-15_20-38-23.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "c4b851bcd5e8030b65abf6db701bd4644aca1345",
+          "checksum_ok": true,
+          "size_bytes": 27240,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-15_20-38-23.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "ff539ae83a01edd12a6b9415b8e820b14b079f53",
+          "checksum_ok": true,
+          "size_bytes": 133892,
+          "size_ok": true,
+          "path": "TSV\\2024-02-15_20-38-23.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 427.968,
+        "subtype": "PCM_16",
+        "midi_notes": 3489,
+        "midi_cc64_events": 1516,
+        "midi_cc64_down": 1317,
+        "midi_dur_s": 426.079,
+        "tsv_rows": 3489,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 1.889
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-02-15_21-33-36",
+      "split": "valid",
+      "composer": "L. Beethoven",
+      "piece": "Piano Sonata No.23 Mvt.3",
+      "performance_method": "Solo",
+      "meta_dur_s": 335.979,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "e49adf1a848f33c53dda448ff80ac7e69fdf10f91566195f6524be907a551008",
+          "checksum_ok": true,
+          "size_bytes": 29633364,
+          "size_ok": true,
+          "path": "Audio\\2024-02-15_21-33-36.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "e4989e008f78a43f21714aa7fa480a5163ec0293",
+          "checksum_ok": true,
+          "size_bytes": 28853,
+          "size_ok": true,
+          "path": "MIDI\\2024-02-15_21-33-36.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "c854d76e804b28a3c685d23ee2b2fbad80e6441f",
+          "checksum_ok": true,
+          "size_bytes": 139496,
+          "size_ok": true,
+          "path": "TSV\\2024-02-15_21-33-36.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 335.979,
+        "subtype": "PCM_16",
+        "midi_notes": 3643,
+        "midi_cc64_events": 1676,
+        "midi_cc64_down": 1296,
+        "midi_dur_s": 330.558,
+        "tsv_rows": 3643,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 5.421
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-03-13_11-54-57",
+      "split": "valid",
+      "composer": "S. Prokofiev",
+      "piece": "Piano Concerto No.3",
+      "performance_method": "Solo",
+      "meta_dur_s": 1747.733,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "a796d0af6d623b1307dfbf6552c7217b31d730643bc167922d1b7dd7eb274963",
+          "checksum_ok": true,
+          "size_bytes": 154150124,
+          "size_ok": true,
+          "path": "Audio\\2024-03-13_11-54-57.wav"
+        },
+        "midi": {
+          "checksum_type": "sha256",
+          "checksum": "3555bbb549f50aee690788c927cfd1fbf362a495d3a0c4d14de47a1a34bcbe0a",
+          "checksum_ok": true,
+          "size_bytes": 168266,
+          "size_ok": true,
+          "path": "MIDI\\2024-03-13_11-54-57.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "f29f805b6de1b75c108da4fbbad3270a9060e33e",
+          "checksum_ok": true,
+          "size_bytes": 627685,
+          "size_ok": true,
+          "path": "TSV\\2024-03-13_11-54-57.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 1747.733,
+        "subtype": "PCM_16",
+        "midi_notes": 15651,
+        "midi_cc64_events": 16040,
+        "midi_cc64_down": 13314,
+        "midi_dur_s": 1743.603,
+        "tsv_rows": 15651,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 4.13
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_12-45-12",
+      "split": "valid",
+      "composer": "J. S. Bach",
+      "piece": "Italian Concerto Mvt.1",
+      "performance_method": "Solo",
+      "meta_dur_s": 322.717,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "536c54798723526693663ef259c29d04d22ebb22634ea8a75038ea66f75696b2",
+          "checksum_ok": true,
+          "size_bytes": 28463670,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_12-45-12.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "20a60b4a74b764350aae6445e723e49d3e5e5535",
+          "checksum_ok": true,
+          "size_bytes": 17660,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_12-45-12.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "ab3f3764a43b7fcc05af164d72089b8c112d7cb6",
+          "checksum_ok": true,
+          "size_bytes": 106949,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_12-45-12.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [
+        "no sustain pedal (CC64) used in this performance"
+      ],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 322.717,
+        "subtype": "PCM_16",
+        "midi_notes": 2810,
+        "midi_cc64_events": 0,
+        "midi_cc64_down": 0,
+        "midi_dur_s": 315.943,
+        "tsv_rows": 2810,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 6.774
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_15-05-42",
+      "split": "valid",
+      "composer": "Nam Ku Min",
+      "piece": "Reminiscence",
+      "performance_method": "Solo",
+      "meta_dur_s": 483.961,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "30c0aab439be17a50330da747e7d362a8c944c35259efe3622844b7e9cbef5be",
+          "checksum_ok": true,
+          "size_bytes": 42685440,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_15-05-42.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "f1ce62e3318b233edf1382d72049dc385b5a7e0d",
+          "checksum_ok": true,
+          "size_bytes": 29590,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_15-05-42.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "2b79721642a19dc960056289f97a770762a328c4",
+          "checksum_ok": true,
+          "size_bytes": 105816,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_15-05-42.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 483.961,
+        "subtype": "PCM_16",
+        "midi_notes": 2749,
+        "midi_cc64_events": 3270,
+        "midi_cc64_down": 1715,
+        "midi_dur_s": 479.269,
+        "tsv_rows": 2749,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 4.692
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_15-26-39",
+      "split": "valid",
+      "composer": "Yiruma",
+      "piece": "Stay in memory",
+      "performance_method": "Solo",
+      "meta_dur_s": 863.959,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "3f1b12c8e7b243c09d362e671ca75888c3017020a9eb871d27954ff965949d77",
+          "checksum_ok": true,
+          "size_bytes": 76201242,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_15-26-39.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "c45693bb618ddb036380f58bfecf7bbc92bb0985",
+          "checksum_ok": true,
+          "size_bytes": 44044,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_15-26-39.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "af81058b384984a4b05302ede612da56c11b8bb3",
+          "checksum_ok": true,
+          "size_bytes": 145627,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_15-26-39.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 863.959,
+        "subtype": "PCM_16",
+        "midi_notes": 3764,
+        "midi_cc64_events": 5679,
+        "midi_cc64_down": 2396,
+        "midi_dur_s": 854.002,
+        "tsv_rows": 3764,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 9.957
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_19-40-55",
+      "split": "valid",
+      "composer": "M. Ravel",
+      "piece": "Sonatine Mvt.1",
+      "performance_method": "Solo",
+      "meta_dur_s": 425.38,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "c74bf4a5ff60283adb8b60b5c0fa7b5553b1ecbfd2b9fdcd5ed42a55b0831ad1",
+          "checksum_ok": true,
+          "size_bytes": 37518532,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_19-40-55.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "0fee1a6a99c8253dc549151308ded6ee0a4eb26f",
+          "checksum_ok": true,
+          "size_bytes": 25767,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_19-40-55.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "709fc521bc225baf1586ae40c25a0798755ec7de",
+          "checksum_ok": true,
+          "size_bytes": 71983,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_19-40-55.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 425.38,
+        "subtype": "PCM_16",
+        "midi_notes": 1886,
+        "midi_cc64_events": 3972,
+        "midi_cc64_down": 2102,
+        "midi_dur_s": 417.759,
+        "tsv_rows": 1886,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 7.621
+      },
+      "flags": []
+    },
+    {
+      "record_time": "2024-09-02_23-22-31",
+      "split": "valid",
+      "composer": "Debussy",
+      "piece": "Images 3. Mouvement",
+      "performance_method": "Solo",
+      "meta_dur_s": 389.41,
+      "files": {
+        "audio": {
+          "checksum_type": "sha256",
+          "checksum": "2ff3b877babd319f0ea46311868eda986fd6be8a713f8aff4e768c13a262788c",
+          "checksum_ok": true,
+          "size_bytes": 34345994,
+          "size_ok": true,
+          "path": "Audio\\2024-09-02_23-22-31.wav"
+        },
+        "midi": {
+          "checksum_type": "git-sha1",
+          "checksum": "d40a342f5468774bfced6effae84144620251276",
+          "checksum_ok": true,
+          "size_bytes": 29056,
+          "size_ok": true,
+          "path": "MIDI\\2024-09-02_23-22-31.mid"
+        },
+        "tsv": {
+          "checksum_type": "git-sha1",
+          "checksum": "066a65febd38ec5c4d305c7af2d5aa4aa91197c7",
+          "checksum_ok": true,
+          "size_bytes": 138393,
+          "size_ok": true,
+          "path": "TSV\\2024-09-02_23-22-31.tsv"
+        }
+      },
+      "missing": [],
+      "notes": [],
+      "checks": {
+        "sr": 44100,
+        "channels": 1,
+        "audio_dur_s": 389.41,
+        "subtype": "PCM_16",
+        "midi_notes": 3634,
+        "midi_cc64_events": 1769,
+        "midi_cc64_down": 1019,
+        "midi_dur_s": 384.038,
+        "tsv_rows": 3634,
+        "tsv_header_ok": true,
+        "tsv_header": "# onset|key_offset|frame_offset|note|velocity",
+        "tsv_bad_rows": 0,
+        "tsv_frame_before_key_offset": 0,
+        "midi_end_before_audio_end_s": 5.372
+      },
+      "flags": []
+    }
+  ]
+}

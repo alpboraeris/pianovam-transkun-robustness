@@ -1,0 +1,595 @@
+﻿group,kind,category,n_ref,recall,n_est,precision
+clean,octave,A0-B1,517,0.9497,505.0,0.9723
+clean,octave,C2-B2,2902,0.9759,2843.0,0.9961
+clean,octave,C3-B3,8467,0.9695,8235.0,0.9968
+clean,octave,C4-B4,14152,0.9866,14002.0,0.9971
+clean,octave,C5-B5,11768,0.9771,11513.0,0.9988
+clean,octave,C6-B6,4527,0.966,4378.0,0.9989
+clean,octave,C7-C8,775,0.9419,731.0,0.9986
+clean,register,high,17070,0.9726,16622.0,0.9988
+clean,register,low,3419,0.9719,3348.0,0.9925
+clean,register,mid,22619,0.9802,22237.0,0.997
+clean,key,black,14443,0.9729,14080.0,0.9979
+clean,key,white,28665,0.9784,28127.0,0.9971
+clean,velocity,40-59,11128,0.9786,,
+clean,velocity,60-79,21821,0.9957,,
+clean,velocity,<40,2292,0.712,,
+clean,velocity,>=80,7867,0.9973,,
+clean,polyphony,1,11886,0.9886,,
+clean,polyphony,2-3,23325,0.9788,,
+clean,polyphony,4-5,6957,0.9598,,
+clean,polyphony,6+,940,0.8926,,
+clean,register x key,high black,5263,0.9666,5093.0,0.9988
+clean,register x key,high white,11807,0.9753,11529.0,0.9988
+clean,register x key,low black,1499,0.9833,1480.0,0.9959
+clean,register x key,low white,1920,0.963,1868.0,0.9898
+clean,register x key,mid black,7681,0.9751,7507.0,0.9977
+clean,register x key,mid white,14938,0.9828,14730.0,0.9967
+clean,all,all,43108,0.9765,42207.0,0.9974
+clean_dev,octave,A0-B1,81,0.9753,80.0,0.9875
+clean_dev,octave,C2-B2,405,0.9951,403.0,1.0
+clean_dev,octave,C3-B3,1540,0.9597,1479.0,0.9993
+clean_dev,octave,C4-B4,2841,0.9905,2819.0,0.9982
+clean_dev,octave,C5-B5,2196,0.9818,2158.0,0.9991
+clean_dev,octave,C6-B6,787,0.9682,762.0,1.0
+clean_dev,octave,C7-C8,335,0.9731,326.0,1.0
+clean_dev,register,high,3318,0.9777,3246.0,0.9994
+clean_dev,register,low,486,0.9918,483.0,0.9979
+clean_dev,register,mid,4381,0.9797,4298.0,0.9986
+clean_dev,key,black,3027,0.9739,2952.0,0.9986
+clean_dev,key,white,5158,0.9829,5075.0,0.999
+clean_dev,velocity,40-59,2581,0.9876,,
+clean_dev,velocity,60-79,4331,0.9995,,
+clean_dev,velocity,<40,661,0.7988,,
+clean_dev,velocity,>=80,612,1.0,,
+clean_dev,polyphony,1,2078,0.9894,,
+clean_dev,polyphony,2-3,4385,0.9822,,
+clean_dev,polyphony,4-5,1586,0.9634,,
+clean_dev,polyphony,6+,136,0.9338,,
+clean_dev,register x key,high black,1046,0.9809,1027.0,0.999
+clean_dev,register x key,high white,2272,0.9762,2219.0,0.9995
+clean_dev,register x key,low black,310,0.9903,308.0,0.9968
+clean_dev,register x key,low white,176,0.9943,175.0,1.0
+clean_dev,register x key,mid black,1671,0.9665,1617.0,0.9988
+clean_dev,register x key,mid white,2710,0.9878,2681.0,0.9985
+clean_dev,all,all,8185,0.9796,8027.0,0.9989
+speech@20,octave,A0-B1,81,0.963,79.0,0.9873
+speech@20,octave,C2-B2,405,0.9926,405.0,0.9926
+speech@20,octave,C3-B3,1540,0.9545,1496.0,0.9826
+speech@20,octave,C4-B4,2841,0.9891,2821.0,0.9961
+speech@20,octave,C5-B5,2196,0.9804,2163.0,0.9954
+speech@20,octave,C6-B6,787,0.9619,758.0,0.9987
+speech@20,octave,C7-C8,335,0.9701,325.0,1.0
+speech@20,register,high,3318,0.975,3246.0,0.9966
+speech@20,register,low,486,0.9877,484.0,0.9917
+speech@20,register,mid,4381,0.9769,4317.0,0.9914
+speech@20,key,black,3027,0.9683,2954.0,0.9922
+speech@20,key,white,5158,0.9818,5093.0,0.9943
+speech@20,velocity,40-59,2581,0.9853,,
+speech@20,velocity,60-79,4331,0.9991,,
+speech@20,velocity,<40,661,0.7761,,
+speech@20,velocity,>=80,612,1.0,,
+speech@20,polyphony,1,2078,0.986,,
+speech@20,polyphony,2-3,4385,0.979,,
+speech@20,polyphony,4-5,1586,0.9628,,
+speech@20,polyphony,6+,136,0.9265,,
+speech@20,register x key,high black,1046,0.979,1029.0,0.9951
+speech@20,register x key,high white,2272,0.9732,2217.0,0.9973
+speech@20,register x key,low black,310,0.9839,306.0,0.9967
+speech@20,register x key,low white,176,0.9943,178.0,0.9831
+speech@20,register x key,mid black,1671,0.9587,1619.0,0.9895
+speech@20,register x key,mid white,2710,0.9882,2698.0,0.9926
+speech@20,all,all,8185,0.9768,8047.0,0.9935
+speech@10,octave,A0-B1,81,0.963,79.0,0.9873
+speech@10,octave,C2-B2,405,0.9802,415.0,0.9566
+speech@10,octave,C3-B3,1540,0.9344,1491.0,0.9651
+speech@10,octave,C4-B4,2841,0.9824,2798.0,0.9975
+speech@10,octave,C5-B5,2196,0.9754,2153.0,0.9949
+speech@10,octave,C6-B6,787,0.9581,758.0,0.9947
+speech@10,octave,C7-C8,335,0.9642,323.0,1.0
+speech@10,register,high,3318,0.9702,3234.0,0.9954
+speech@10,register,low,486,0.9774,494.0,0.9615
+speech@10,register,mid,4381,0.9655,4289.0,0.9862
+speech@10,key,black,3027,0.9587,2942.0,0.9864
+speech@10,key,white,5158,0.9736,5075.0,0.9896
+speech@10,velocity,40-59,2581,0.974,,
+speech@10,velocity,60-79,4331,0.9986,,
+speech@10,velocity,<40,661,0.7156,,
+speech@10,velocity,>=80,612,1.0,,
+speech@10,polyphony,1,2078,0.9827,,
+speech@10,polyphony,2-3,4385,0.9719,,
+speech@10,polyphony,4-5,1586,0.9433,,
+speech@10,polyphony,6+,136,0.9118,,
+speech@10,register x key,high black,1046,0.9732,1022.0,0.9961
+speech@10,register x key,high white,2272,0.9688,2212.0,0.995
+speech@10,register x key,low black,310,0.9806,313.0,0.9712
+speech@10,register x key,low white,176,0.9716,181.0,0.9448
+speech@10,register x key,mid black,1671,0.9455,1607.0,0.9832
+speech@10,register x key,mid white,2710,0.9779,2682.0,0.9881
+speech@10,all,all,8185,0.9681,8017.0,0.9884
+speech@0,octave,A0-B1,81,0.9506,80.0,0.9625
+speech@0,octave,C2-B2,405,0.9605,417.0,0.9329
+speech@0,octave,C3-B3,1540,0.8916,1438.0,0.9548
+speech@0,octave,C4-B4,2841,0.9648,2749.0,0.9971
+speech@0,octave,C5-B5,2196,0.9636,2136.0,0.9906
+speech@0,octave,C6-B6,787,0.9517,756.0,0.9907
+speech@0,octave,C7-C8,335,0.9522,321.0,0.9938
+speech@0,register,high,3318,0.9596,3213.0,0.991
+speech@0,register,low,486,0.9588,497.0,0.9376
+speech@0,register,mid,4381,0.9391,4187.0,0.9826
+speech@0,key,black,3027,0.9379,2882.0,0.9851
+speech@0,key,white,5158,0.9548,5015.0,0.9821
+speech@0,velocity,40-59,2581,0.9438,,
+speech@0,velocity,60-79,4331,0.9956,,
+speech@0,velocity,<40,661,0.6112,,
+speech@0,velocity,>=80,612,1.0,,
+speech@0,polyphony,1,2078,0.9711,,
+speech@0,polyphony,2-3,4385,0.9517,,
+speech@0,polyphony,4-5,1586,0.9149,,
+speech@0,polyphony,6+,136,0.8971,,
+speech@0,register x key,high black,1046,0.9646,1019.0,0.9902
+speech@0,register x key,high white,2272,0.9573,2194.0,0.9913
+speech@0,register x key,low black,310,0.9677,312.0,0.9615
+speech@0,register x key,low white,176,0.9432,185.0,0.8973
+speech@0,register x key,mid black,1671,0.9156,1551.0,0.9865
+speech@0,register x key,mid white,2710,0.9535,2636.0,0.9803
+speech@0,all,all,8185,0.9486,7897.0,0.9832
+speech@-10,octave,A0-B1,81,0.8889,78.0,0.9231
+speech@-10,octave,C2-B2,405,0.8272,398.0,0.8417
+speech@-10,octave,C3-B3,1540,0.7636,1257.0,0.9356
+speech@-10,octave,C4-B4,2841,0.8965,2573.0,0.9899
+speech@-10,octave,C5-B5,2196,0.9085,2025.0,0.9852
+speech@-10,octave,C6-B6,787,0.9111,735.0,0.9755
+speech@-10,octave,C7-C8,335,0.9254,312.0,0.9936
+speech@-10,register,high,3318,0.9108,3072.0,0.9837
+speech@-10,register,low,486,0.8374,476.0,0.855
+speech@-10,register,mid,4381,0.8498,3830.0,0.9721
+speech@-10,key,black,3027,0.8418,2633.0,0.9677
+speech@-10,key,white,5158,0.8926,4745.0,0.9703
+speech@-10,velocity,40-59,2581,0.8187,,
+speech@-10,velocity,60-79,4331,0.9594,,
+speech@-10,velocity,<40,661,0.416,,
+speech@-10,velocity,>=80,612,0.9951,,
+speech@-10,polyphony,1,2078,0.9081,,
+speech@-10,polyphony,2-3,4385,0.8764,,
+speech@-10,polyphony,4-5,1586,0.8222,,
+speech@-10,polyphony,6+,136,0.8676,,
+speech@-10,register x key,high black,1046,0.9044,965.0,0.9803
+speech@-10,register x key,high white,2272,0.9137,2107.0,0.9853
+speech@-10,register x key,low black,310,0.8323,292.0,0.8836
+speech@-10,register x key,low white,176,0.8466,184.0,0.8098
+speech@-10,register x key,mid black,1671,0.8043,1376.0,0.9767
+speech@-10,register x key,mid white,2710,0.8779,2454.0,0.9694
+speech@-10,all,all,8185,0.8738,7378.0,0.9694
+speech@-20,octave,A0-B1,81,0.4938,44.0,0.9091
+speech@-20,octave,C2-B2,405,0.4123,256.0,0.6523
+speech@-20,octave,C3-B3,1540,0.4429,797.0,0.8557
+speech@-20,octave,C4-B4,2841,0.6153,1804.0,0.969
+speech@-20,octave,C5-B5,2196,0.6949,1577.0,0.9677
+speech@-20,octave,C6-B6,787,0.7433,593.0,0.9865
+speech@-20,octave,C7-C8,335,0.6746,231.0,0.9784
+speech@-20,register,high,3318,0.7043,2401.0,0.9733
+speech@-20,register,low,486,0.4259,300.0,0.69
+speech@-20,register,mid,4381,0.5547,2601.0,0.9343
+speech@-20,key,black,3027,0.5517,1785.0,0.9356
+speech@-20,key,white,5158,0.6406,3517.0,0.9394
+speech@-20,velocity,40-59,2581,0.4645,,
+speech@-20,velocity,60-79,4331,0.7285,,
+speech@-20,velocity,<40,661,0.1165,,
+speech@-20,velocity,>=80,612,0.8873,,
+speech@-20,polyphony,1,2078,0.6607,,
+speech@-20,polyphony,2-3,4385,0.6005,,
+speech@-20,polyphony,4-5,1586,0.5555,,
+speech@-20,polyphony,6+,136,0.6397,,
+speech@-20,register x key,high black,1046,0.6692,717.0,0.9763
+speech@-20,register x key,high white,2272,0.7205,1684.0,0.9721
+speech@-20,register x key,low black,310,0.4129,172.0,0.7442
+speech@-20,register x key,low white,176,0.4489,128.0,0.6172
+speech@-20,register x key,mid black,1671,0.5039,896.0,0.9397
+speech@-20,register x key,mid white,2710,0.586,1705.0,0.9314
+speech@-20,all,all,8185,0.6077,5302.0,0.9381
+environment@20,octave,A0-B1,81,0.963,79.0,0.9873
+environment@20,octave,C2-B2,405,0.9926,402.0,1.0
+environment@20,octave,C3-B3,1540,0.9526,1472.0,0.9966
+environment@20,octave,C4-B4,2841,0.9884,2813.0,0.9982
+environment@20,octave,C5-B5,2196,0.9809,2159.0,0.9977
+environment@20,octave,C6-B6,787,0.9644,759.0,1.0
+environment@20,octave,C7-C8,335,0.9701,325.0,1.0
+environment@20,register,high,3318,0.9759,3243.0,0.9985
+environment@20,register,low,486,0.9877,481.0,0.9979
+environment@20,register,mid,4381,0.9758,4285.0,0.9977
+environment@20,key,black,3027,0.968,2936.0,0.998
+environment@20,key,white,5158,0.9816,5073.0,0.998
+environment@20,velocity,40-59,2581,0.9864,,
+environment@20,velocity,60-79,4331,0.9988,,
+environment@20,velocity,<40,661,0.77,,
+environment@20,velocity,>=80,612,1.0,,
+environment@20,polyphony,1,2078,0.9875,,
+environment@20,polyphony,2-3,4385,0.979,,
+environment@20,polyphony,4-5,1586,0.9596,,
+environment@20,polyphony,6+,136,0.9265,,
+environment@20,register x key,high black,1046,0.978,1025.0,0.998
+environment@20,register x key,high white,2272,0.9749,2218.0,0.9986
+environment@20,register x key,low black,310,0.9839,306.0,0.9967
+environment@20,register x key,low white,176,0.9943,175.0,1.0
+environment@20,register x key,mid black,1671,0.9587,1605.0,0.9981
+environment@20,register x key,mid white,2710,0.9863,2680.0,0.9974
+environment@20,all,all,8185,0.9765,8009.0,0.998
+environment@10,octave,A0-B1,81,0.9753,80.0,0.9875
+environment@10,octave,C2-B2,405,0.9704,394.0,0.9975
+environment@10,octave,C3-B3,1540,0.9266,1438.0,0.9924
+environment@10,octave,C4-B4,2841,0.9771,2779.0,0.9989
+environment@10,octave,C5-B5,2196,0.9754,2150.0,0.9963
+environment@10,octave,C6-B6,787,0.9619,761.0,0.9947
+environment@10,octave,C7-C8,335,0.9672,327.0,0.9908
+environment@10,register,high,3318,0.9714,3238.0,0.9954
+environment@10,register,low,486,0.9712,474.0,0.9958
+environment@10,register,mid,4381,0.9594,4217.0,0.9967
+environment@10,key,black,3027,0.9524,2896.0,0.9955
+environment@10,key,white,5158,0.9723,5033.0,0.9964
+environment@10,velocity,40-59,2581,0.9768,,
+environment@10,velocity,60-79,4331,0.9975,,
+environment@10,velocity,<40,661,0.6732,,
+environment@10,velocity,>=80,612,1.0,,
+environment@10,polyphony,1,2078,0.9774,,
+environment@10,polyphony,2-3,4385,0.9678,,
+environment@10,polyphony,4-5,1586,0.9439,,
+environment@10,polyphony,6+,136,0.9265,,
+environment@10,register x key,high black,1046,0.9723,1024.0,0.9932
+environment@10,register x key,high white,2272,0.971,2214.0,0.9964
+environment@10,register x key,low black,310,0.971,302.0,0.9967
+environment@10,register x key,low white,176,0.9716,172.0,0.9942
+environment@10,register x key,mid black,1671,0.9366,1570.0,0.9968
+environment@10,register x key,mid white,2710,0.9734,2647.0,0.9966
+environment@10,all,all,8185,0.9649,7929.0,0.9961
+environment@0,octave,A0-B1,81,0.8765,79.0,0.8987
+environment@0,octave,C2-B2,405,0.7679,316.0,0.9842
+environment@0,octave,C3-B3,1540,0.7617,1217.0,0.9638
+environment@0,octave,C4-B4,2841,0.9138,2631.0,0.9867
+environment@0,octave,C5-B5,2196,0.9353,2099.0,0.9786
+environment@0,octave,C6-B6,787,0.9403,747.0,0.9906
+environment@0,octave,C7-C8,335,0.9463,320.0,0.9906
+environment@0,register,high,3318,0.9376,3166.0,0.9826
+environment@0,register,low,486,0.786,395.0,0.9671
+environment@0,register,mid,4381,0.8603,3848.0,0.9795
+environment@0,key,black,3027,0.8566,2632.0,0.9852
+environment@0,key,white,5158,0.9052,4777.0,0.9774
+environment@0,velocity,40-59,2581,0.8462,,
+environment@0,velocity,60-79,4331,0.9808,,
+environment@0,velocity,<40,661,0.3298,,
+environment@0,velocity,>=80,612,1.0,,
+environment@0,polyphony,1,2078,0.9264,,
+environment@0,polyphony,2-3,4385,0.8887,,
+environment@0,polyphony,4-5,1586,0.8323,,
+environment@0,polyphony,6+,136,0.8824,,
+environment@0,register x key,high black,1046,0.9426,998.0,0.988
+environment@0,register x key,high white,2272,0.9353,2168.0,0.9802
+environment@0,register x key,low black,310,0.8,251.0,0.988
+environment@0,register x key,low white,176,0.7614,144.0,0.9306
+environment@0,register x key,mid black,1671,0.8133,1383.0,0.9826
+environment@0,register x key,mid white,2710,0.8893,2465.0,0.9777
+environment@0,all,all,8185,0.8872,7409.0,0.9802
+environment@-10,octave,A0-B1,81,0.3086,37.0,0.6757
+environment@-10,octave,C2-B2,405,0.1975,108.0,0.7407
+environment@-10,octave,C3-B3,1540,0.2916,570.0,0.7877
+environment@-10,octave,C4-B4,2841,0.4949,1487.0,0.9455
+environment@-10,octave,C5-B5,2196,0.6011,1386.0,0.9524
+environment@-10,octave,C6-B6,787,0.8247,677.0,0.9586
+environment@-10,octave,C7-C8,335,0.7224,255.0,0.949
+environment@-10,register,high,3318,0.6664,2318.0,0.9538
+environment@-10,register,low,486,0.216,145.0,0.7241
+environment@-10,register,mid,4381,0.4234,2057.0,0.9018
+environment@-10,key,black,3027,0.4592,1502.0,0.9254
+environment@-10,key,white,5158,0.5392,3018.0,0.9215
+environment@-10,velocity,40-59,2581,0.2673,,
+environment@-10,velocity,60-79,4331,0.6707,,
+environment@-10,velocity,<40,661,0.0136,,
+environment@-10,velocity,>=80,612,0.9265,,
+environment@-10,polyphony,1,2078,0.6001,,
+environment@-10,polyphony,2-3,4385,0.4734,,
+environment@-10,polyphony,4-5,1586,0.4735,,
+environment@-10,polyphony,6+,136,0.7132,,
+environment@-10,register x key,high black,1046,0.6855,759.0,0.9447
+environment@-10,register x key,high white,2272,0.6576,1559.0,0.9583
+environment@-10,register x key,low black,310,0.2097,77.0,0.8442
+environment@-10,register x key,low white,176,0.2273,68.0,0.5882
+environment@-10,register x key,mid black,1671,0.3639,666.0,0.9129
+environment@-10,register x key,mid white,2710,0.4601,1391.0,0.8965
+environment@-10,all,all,8185,0.5096,4520.0,0.9228
+environment@-20,octave,A0-B1,81,0.0,2.0,0.0
+environment@-20,octave,C2-B2,405,0.0,4.0,0.0
+environment@-20,octave,C3-B3,1540,0.0013,31.0,0.0645
+environment@-20,octave,C4-B4,2841,0.0148,65.0,0.6462
+environment@-20,octave,C5-B5,2196,0.0765,193.0,0.8705
+environment@-20,octave,C6-B6,787,0.1131,91.0,0.978
+environment@-20,octave,C7-C8,335,0.0328,15.0,0.7333
+environment@-20,register,high,3318,0.0808,299.0,0.8963
+environment@-20,register,low,486,0.0,6.0,0.0
+environment@-20,register,mid,4381,0.01,96.0,0.4583
+environment@-20,key,black,3027,0.0238,104.0,0.6923
+environment@-20,key,white,5158,0.0465,297.0,0.8081
+environment@-20,velocity,40-59,2581,0.0124,,
+environment@-20,velocity,60-79,4331,0.042,,
+environment@-20,velocity,<40,661,0.0015,,
+environment@-20,velocity,>=80,612,0.1585,,
+environment@-20,polyphony,1,2078,0.0587,,
+environment@-20,polyphony,2-3,4385,0.0265,,
+environment@-20,polyphony,4-5,1586,0.0404,,
+environment@-20,polyphony,6+,136,0.0735,,
+environment@-20,register x key,high black,1046,0.0468,63.0,0.7778
+environment@-20,register x key,high white,2272,0.0964,236.0,0.928
+environment@-20,register x key,low black,310,0.0,1.0,0.0
+environment@-20,register x key,low white,176,0.0,5.0,0.0
+environment@-20,register x key,mid black,1671,0.0138,40.0,0.575
+environment@-20,register x key,mid white,2710,0.0077,56.0,0.375
+environment@-20,all,all,8185,0.0381,401.0,0.7781
+music@20,octave,A0-B1,81,0.963,79.0,0.9873
+music@20,octave,C2-B2,405,0.9852,418.0,0.9545
+music@20,octave,C3-B3,1540,0.9506,1514.0,0.967
+music@20,octave,C4-B4,2841,0.9866,2835.0,0.9887
+music@20,octave,C5-B5,2196,0.9818,2162.0,0.9972
+music@20,octave,C6-B6,787,0.967,762.0,0.9987
+music@20,octave,C7-C8,335,0.9612,322.0,1.0
+music@20,register,high,3318,0.9762,3246.0,0.9978
+music@20,register,low,486,0.9815,497.0,0.9598
+music@20,register,mid,4381,0.974,4349.0,0.9811
+music@20,key,black,3027,0.967,2958.0,0.9895
+music@20,key,white,5158,0.9802,5134.0,0.9848
+music@20,velocity,40-59,2581,0.9872,,
+music@20,velocity,60-79,4331,0.9993,,
+music@20,velocity,<40,661,0.7489,,
+music@20,velocity,>=80,612,1.0,,
+music@20,polyphony,1,2078,0.986,,
+music@20,polyphony,2-3,4385,0.979,,
+music@20,polyphony,4-5,1586,0.9552,,
+music@20,polyphony,6+,136,0.9265,,
+music@20,register x key,high black,1046,0.979,1025.0,0.999
+music@20,register x key,high white,2272,0.9749,2221.0,0.9973
+music@20,register x key,low black,310,0.9806,308.0,0.987
+music@20,register x key,low white,176,0.983,189.0,0.9153
+music@20,register x key,mid black,1671,0.9569,1625.0,0.984
+music@20,register x key,mid white,2710,0.9845,2724.0,0.9794
+music@20,all,all,8185,0.9753,8092.0,0.9865
+music@10,octave,A0-B1,81,0.9753,80.0,0.9875
+music@10,octave,C2-B2,405,0.9654,623.0,0.6276
+music@10,octave,C3-B3,1540,0.9266,1617.0,0.8825
+music@10,octave,C4-B4,2841,0.9768,2875.0,0.9652
+music@10,octave,C5-B5,2196,0.9763,2164.0,0.9908
+music@10,octave,C6-B6,787,0.9606,757.0,0.9987
+music@10,octave,C7-C8,335,0.9552,321.0,0.9969
+music@10,register,high,3318,0.9705,3242.0,0.9932
+music@10,register,low,486,0.9671,703.0,0.6686
+music@10,register,mid,4381,0.9591,4492.0,0.9354
+music@10,key,black,3027,0.9547,3071.0,0.9411
+music@10,key,white,5158,0.9698,5366.0,0.9322
+music@10,velocity,40-59,2581,0.974,,
+music@10,velocity,60-79,4331,0.9975,,
+music@10,velocity,<40,661,0.6747,,
+music@10,velocity,>=80,612,1.0,,
+music@10,polyphony,1,2078,0.9798,,
+music@10,polyphony,2-3,4385,0.9683,,
+music@10,polyphony,4-5,1586,0.9363,,
+music@10,polyphony,6+,136,0.9191,,
+music@10,register x key,high black,1046,0.9751,1031.0,0.9893
+music@10,register x key,high white,2272,0.9683,2211.0,0.995
+music@10,register x key,low black,310,0.971,380.0,0.7921
+music@10,register x key,low white,176,0.9602,323.0,0.5232
+music@10,register x key,mid black,1671,0.939,1660.0,0.9452
+music@10,register x key,mid white,2710,0.9716,2832.0,0.9297
+music@10,all,all,8185,0.9642,8437.0,0.9354
+music@0,octave,A0-B1,81,0.9136,81.0,0.9136
+music@0,octave,C2-B2,405,0.9086,1016.0,0.3622
+music@0,octave,C3-B3,1540,0.8253,1915.0,0.6637
+music@0,octave,C4-B4,2841,0.9173,2962.0,0.8798
+music@0,octave,C5-B5,2196,0.9372,2108.0,0.9763
+music@0,octave,C6-B6,787,0.9212,738.0,0.9824
+music@0,octave,C7-C8,335,0.9194,324.0,0.9506
+music@0,register,high,3318,0.9316,3170.0,0.9751
+music@0,register,low,486,0.9095,1097.0,0.4029
+music@0,register,mid,4381,0.885,4877.0,0.795
+music@0,key,black,3027,0.8854,3248.0,0.8251
+music@0,key,white,5158,0.917,5896.0,0.8022
+music@0,velocity,40-59,2581,0.8683,,
+music@0,velocity,60-79,4331,0.9811,,
+music@0,velocity,<40,661,0.469,,
+music@0,velocity,>=80,612,0.9967,,
+music@0,polyphony,1,2078,0.9471,,
+music@0,polyphony,2-3,4385,0.9113,,
+music@0,polyphony,4-5,1586,0.8373,,
+music@0,polyphony,6+,136,0.8676,,
+music@0,register x key,high black,1046,0.9302,1001.0,0.972
+music@0,register x key,high white,2272,0.9322,2169.0,0.9765
+music@0,register x key,low black,310,0.9194,456.0,0.625
+music@0,register x key,low white,176,0.892,641.0,0.2449
+music@0,register x key,mid black,1671,0.851,1791.0,0.794
+music@0,register x key,mid white,2710,0.9059,3086.0,0.7955
+music@0,all,all,8185,0.9053,9144.0,0.8104
+music@-10,octave,A0-B1,81,0.5802,60.0,0.7833
+music@-10,octave,C2-B2,405,0.6642,1225.0,0.2196
+music@-10,octave,C3-B3,1540,0.5571,1928.0,0.445
+music@-10,octave,C4-B4,2841,0.6522,2666.0,0.695
+music@-10,octave,C5-B5,2196,0.6758,1593.0,0.9316
+music@-10,octave,C6-B6,787,0.6557,543.0,0.9503
+music@-10,octave,C7-C8,335,0.5791,236.0,0.822
+music@-10,register,high,3318,0.6612,2372.0,0.925
+music@-10,register,low,486,0.6502,1285.0,0.2459
+music@-10,register,mid,4381,0.6188,4594.0,0.5901
+music@-10,key,black,3027,0.5798,2748.0,0.6386
+music@-10,key,white,5158,0.672,5503.0,0.6298
+music@-10,velocity,40-59,2581,0.5052,,
+music@-10,velocity,60-79,4331,0.7435,,
+music@-10,velocity,<40,661,0.2284,,
+music@-10,velocity,>=80,612,0.8922,,
+music@-10,polyphony,1,2078,0.6776,,
+music@-10,polyphony,2-3,4385,0.6369,,
+music@-10,polyphony,4-5,1586,0.5788,,
+music@-10,polyphony,6+,136,0.75,,
+music@-10,register x key,high black,1046,0.6071,693.0,0.9163
+music@-10,register x key,high white,2272,0.6862,1679.0,0.9285
+music@-10,register x key,low black,310,0.6613,472.0,0.4343
+music@-10,register x key,low white,176,0.6307,813.0,0.1365
+music@-10,register x key,mid black,1671,0.5476,1583.0,0.578
+music@-10,register x key,mid white,2710,0.6627,3011.0,0.5965
+music@-10,all,all,8185,0.6379,8251.0,0.6328
+music@-20,octave,A0-B1,81,0.2346,29.0,0.6552
+music@-20,octave,C2-B2,405,0.3802,1192.0,0.1292
+music@-20,octave,C3-B3,1540,0.2649,1680.0,0.2429
+music@-20,octave,C4-B4,2841,0.2872,1923.0,0.4243
+music@-20,octave,C5-B5,2196,0.2268,633.0,0.7867
+music@-20,octave,C6-B6,787,0.216,190.0,0.8947
+music@-20,octave,C7-C8,335,0.1731,89.0,0.6517
+music@-20,register,high,3318,0.2188,912.0,0.7961
+music@-20,register,low,486,0.356,1221.0,0.1417
+music@-20,register,mid,4381,0.2794,3603.0,0.3397
+music@-20,key,black,3027,0.2263,1911.0,0.3585
+music@-20,key,white,5158,0.2788,3825.0,0.3759
+music@-20,velocity,40-59,2581,0.1953,,
+music@-20,velocity,60-79,4331,0.2999,,
+music@-20,velocity,<40,661,0.1074,,
+music@-20,velocity,>=80,612,0.4069,,
+music@-20,polyphony,1,2078,0.2632,,
+music@-20,polyphony,2-3,4385,0.2648,,
+music@-20,polyphony,4-5,1586,0.2383,,
+music@-20,polyphony,6+,136,0.2721,,
+music@-20,register x key,high black,1046,0.1931,268.0,0.7537
+music@-20,register x key,high white,2272,0.2306,644.0,0.8137
+music@-20,register x key,low black,310,0.3484,430.0,0.2512
+music@-20,register x key,low white,176,0.3693,791.0,0.0822
+music@-20,register x key,mid black,1671,0.2244,1213.0,0.3092
+music@-20,register x key,mid white,2710,0.3133,2390.0,0.3552
+music@-20,all,all,8185,0.2594,5736.0,0.3701
+white@20,octave,A0-B1,81,0.9753,80.0,0.9875
+white@20,octave,C2-B2,405,0.9951,403.0,1.0
+white@20,octave,C3-B3,1540,0.9539,1476.0,0.9953
+white@20,octave,C4-B4,2841,0.9891,2816.0,0.9979
+white@20,octave,C5-B5,2196,0.9813,2156.0,0.9995
+white@20,octave,C6-B6,787,0.9657,760.0,1.0
+white@20,octave,C7-C8,335,0.9642,323.0,1.0
+white@20,register,high,3318,0.9759,3239.0,0.9997
+white@20,register,low,486,0.9918,483.0,0.9979
+white@20,register,mid,4381,0.9767,4292.0,0.997
+white@20,key,black,3027,0.9693,2938.0,0.9986
+white@20,key,white,5158,0.982,5076.0,0.9978
+white@20,velocity,40-59,2581,0.9861,,
+white@20,velocity,60-79,4331,0.9988,,
+white@20,velocity,<40,661,0.7806,,
+white@20,velocity,>=80,612,1.0,,
+white@20,polyphony,1,2078,0.9856,,
+white@20,polyphony,2-3,4385,0.9804,,
+white@20,polyphony,4-5,1586,0.9615,,
+white@20,polyphony,6+,136,0.9338,,
+white@20,register x key,high black,1046,0.9771,1022.0,1.0
+white@20,register x key,high white,2272,0.9754,2217.0,0.9995
+white@20,register x key,low black,310,0.9903,308.0,0.9968
+white@20,register x key,low white,176,0.9943,175.0,1.0
+white@20,register x key,mid black,1671,0.9605,1608.0,0.9981
+white@20,register x key,mid white,2710,0.9867,2684.0,0.9963
+white@20,all,all,8185,0.9773,8014.0,0.9981
+white@10,octave,A0-B1,81,0.963,79.0,0.9873
+white@10,octave,C2-B2,405,0.9926,402.0,1.0
+white@10,octave,C3-B3,1540,0.9455,1464.0,0.9945
+white@10,octave,C4-B4,2841,0.987,2811.0,0.9975
+white@10,octave,C5-B5,2196,0.9791,2152.0,0.9991
+white@10,octave,C6-B6,787,0.9632,758.0,1.0
+white@10,octave,C7-C8,335,0.9493,318.0,1.0
+white@10,register,high,3318,0.9723,3228.0,0.9994
+white@10,register,low,486,0.9877,481.0,0.9979
+white@10,register,mid,4381,0.9724,4275.0,0.9965
+white@10,key,black,3027,0.963,2920.0,0.9983
+white@10,key,white,5158,0.9793,5064.0,0.9974
+white@10,velocity,40-59,2581,0.9818,,
+white@10,velocity,60-79,4331,0.9984,,
+white@10,velocity,<40,661,0.7504,,
+white@10,velocity,>=80,612,1.0,,
+white@10,polyphony,1,2078,0.9817,,
+white@10,polyphony,2-3,4385,0.9765,,
+white@10,polyphony,4-5,1586,0.9571,,
+white@10,polyphony,6+,136,0.9265,,
+white@10,register x key,high black,1046,0.9732,1018.0,1.0
+white@10,register x key,high white,2272,0.9718,2210.0,0.9991
+white@10,register x key,low black,310,0.9839,306.0,0.9967
+white@10,register x key,low white,176,0.9943,175.0,1.0
+white@10,register x key,mid black,1671,0.9527,1596.0,0.9975
+white@10,register x key,mid white,2710,0.9845,2679.0,0.9959
+white@10,all,all,8185,0.9732,7984.0,0.9977
+white@0,octave,A0-B1,81,0.963,79.0,0.9873
+white@0,octave,C2-B2,405,0.9654,393.0,0.9949
+white@0,octave,C3-B3,1540,0.9039,1402.0,0.9929
+white@0,octave,C4-B4,2841,0.974,2780.0,0.9953
+white@0,octave,C5-B5,2196,0.9681,2130.0,0.9981
+white@0,octave,C6-B6,787,0.9441,745.0,0.9973
+white@0,octave,C7-C8,335,0.9104,314.0,0.9713
+white@0,register,high,3318,0.9566,3189.0,0.9953
+white@0,register,low,486,0.965,472.0,0.9936
+white@0,register,mid,4381,0.9493,4182.0,0.9945
+white@0,key,black,3027,0.9395,2856.0,0.9958
+white@0,key,white,5158,0.9612,4987.0,0.9942
+white@0,velocity,40-59,2581,0.9512,,
+white@0,velocity,60-79,4331,0.994,,
+white@0,velocity,<40,661,0.6505,,
+white@0,velocity,>=80,612,1.0,,
+white@0,polyphony,1,2078,0.9639,,
+white@0,polyphony,2-3,4385,0.9599,,
+white@0,polyphony,4-5,1586,0.9243,,
+white@0,polyphony,6+,136,0.9118,,
+white@0,register x key,high black,1046,0.9637,1012.0,0.996
+white@0,register x key,high white,2272,0.9533,2177.0,0.9949
+white@0,register x key,low black,310,0.971,302.0,0.9967
+white@0,register x key,low white,176,0.9545,170.0,0.9882
+white@0,register x key,mid black,1671,0.9186,1542.0,0.9955
+white@0,register x key,mid white,2710,0.9683,2640.0,0.9939
+white@0,all,all,8185,0.9532,7843.0,0.9948
+white@-10,octave,A0-B1,81,0.7284,66.0,0.8939
+white@-10,octave,C2-B2,405,0.7654,315.0,0.9841
+white@-10,octave,C3-B3,1540,0.6519,1028.0,0.9767
+white@-10,octave,C4-B4,2841,0.8627,2495.0,0.9824
+white@-10,octave,C5-B5,2196,0.8793,1961.0,0.9847
+white@-10,octave,C6-B6,787,0.831,658.0,0.9939
+white@-10,octave,C7-C8,335,0.3642,129.0,0.9457
+white@-10,register,high,3318,0.8159,2748.0,0.9851
+white@-10,register,low,486,0.7593,381.0,0.9685
+white@-10,register,mid,4381,0.7886,3523.0,0.9807
+white@-10,key,black,3027,0.7499,2303.0,0.9857
+white@-10,key,white,5158,0.8261,4349.0,0.9798
+white@-10,velocity,40-59,2581,0.7238,,
+white@-10,velocity,60-79,4331,0.8982,,
+white@-10,velocity,<40,661,0.2829,,
+white@-10,velocity,>=80,612,0.9575,,
+white@-10,polyphony,1,2078,0.8051,,
+white@-10,polyphony,2-3,4385,0.8046,,
+white@-10,polyphony,4-5,1586,0.768,,
+white@-10,polyphony,6+,136,0.8235,,
+white@-10,register x key,high black,1046,0.8117,859.0,0.9884
+white@-10,register x key,high white,2272,0.8178,1889.0,0.9836
+white@-10,register x key,low black,310,0.7129,227.0,0.9736
+white@-10,register x key,low white,176,0.8409,154.0,0.961
+white@-10,register x key,mid black,1671,0.7181,1217.0,0.986
+white@-10,register x key,mid white,2710,0.8321,2306.0,0.9779
+white@-10,all,all,8185,0.7979,6652.0,0.9818
+white@-20,octave,A0-B1,81,0.0123,4.0,0.25
+white@-20,octave,C2-B2,405,0.116,61.0,0.7705
+white@-20,octave,C3-B3,1540,0.0766,166.0,0.7108
+white@-20,octave,C4-B4,2841,0.2731,872.0,0.8899
+white@-20,octave,C5-B5,2196,0.2905,680.0,0.9382
+white@-20,octave,C6-B6,787,0.1487,131.0,0.8931
+white@-20,octave,C7-C8,335,0.0,0.0,
+white@-20,register,high,3318,0.2275,811.0,0.9309
+white@-20,register,low,486,0.0988,65.0,0.7385
+white@-20,register,mid,4381,0.2041,1038.0,0.8613
+white@-20,key,black,3027,0.1361,492.0,0.8374
+white@-20,key,white,5158,0.2491,1422.0,0.9037
+white@-20,velocity,40-59,2581,0.0984,,
+white@-20,velocity,60-79,4331,0.2727,,
+white@-20,velocity,<40,661,0.0076,,
+white@-20,velocity,>=80,612,0.4199,,
+white@-20,polyphony,1,2078,0.2031,,
+white@-20,polyphony,2-3,4385,0.2062,,
+white@-20,polyphony,4-5,1586,0.2131,,
+white@-20,polyphony,6+,136,0.2426,,
+white@-20,register x key,high black,1046,0.174,209.0,0.8708
+white@-20,register x key,high white,2272,0.2522,602.0,0.9518
+white@-20,register x key,low black,310,0.0613,26.0,0.7308
+white@-20,register x key,low white,176,0.1648,39.0,0.7436
+white@-20,register x key,mid black,1671,0.1263,257.0,0.821
+white@-20,register x key,mid white,2710,0.252,781.0,0.8745
+white@-20,all,all,8185,0.2073,1914.0,0.8866

@@ -1,0 +1,47 @@
+{
+  "split": "valid",
+  "design": "first",
+  "snrs_db": [
+    20,
+    10,
+    0,
+    -10,
+    -20
+  ],
+  "types": [
+    "speech",
+    "environment",
+    "music",
+    "white"
+  ],
+  "white_seeds": [
+    0,
+    1,
+    2
+  ],
+  "snr_definition": "10*log10(P_piano/P_noise), mean square over whole recording and all channels; mono noise added to every channel; global down-scaling if peak > 0.999",
+  "noise_bank_speakers": [
+    "251",
+    "5338",
+    "6345"
+  ],
+  "noise_bank_sha256": {
+    "speech_251": "ff8be12c24c85b0355aed986f99f9de9e58b5a520aaf0a0917d6fd9241e3ad76",
+    "speech_5338": "00d16d1a4ed988115ac7b14460129a3e3c56172a4f1a2d50df46baa285e39a89",
+    "speech_6345": "7894cf6d4ab3596f90929a7b462041ccb0833ce1965ba7f9533e54c3ed47cd49",
+    "env_cafeteria": "dd131ac878c4509aa884c309b1ab87954051bb2ea53dbb5cad670f8153bb0620",
+    "env_street": "ae8340b3c1d23958b32c39269a4ba19a07e038b3a5d9e9a42384d77032824332",
+    "env_washing": "92b8990417cfe025323752af31f7a58b73417fe66953c953c9f82584c1e487b6",
+    "music_strings": "88a268ad373f3e5ae4f1199a6d5248f30f3465cb896b3b12ce6f568811f2cd37",
+    "music_orchestra": "f6d75400a8ad2366b544c40a573ea7ca653e04fcea3f865fa3dc0ddb8fb03113",
+    "music_brassband": "10540e2011862cb4a09816f70d52a5a3d08c20cb087cde11c09513a0ec5dd3d1"
+  },
+  "versions": {
+    "transkun": "2.0.1",
+    "torch": "2.14.1+cpu",
+    "mir_eval": "0.8.2",
+    "numpy": "2.5.3",
+    "soundfile": "0.14.0"
+  },
+  "started": "2026-10-09 11:54:04"
+}

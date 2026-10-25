@@ -1,0 +1,71 @@
+{
+  "est": "2024-09-02_23-22-31.mid",
+  "tsv": "2024-09-02_23-22-31.tsv",
+  "n_ref_notes": 3634,
+  "n_est_notes": 3603,
+  "est_pedal_presses": 145,
+  "onset_50ms": {
+    "precision": 0.9942,
+    "recall": 0.9857,
+    "f1": 0.9899
+  },
+  "onset_100ms": {
+    "precision": 0.9947,
+    "recall": 0.9862,
+    "f1": 0.9905
+  },
+  "onset_offset_key_release": {
+    "precision": 0.4946,
+    "recall": 0.4904,
+    "f1": 0.4925
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4852,
+    "recall": 0.481,
+    "f1": 0.4831
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1307,
+    "recall": 0.1296,
+    "f1": 0.1302
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1277,
+    "recall": 0.1266,
+    "f1": 0.1271
+  },
+  "onset_velocity": {
+    "precision": 0.9326,
+    "recall": 0.9246,
+    "f1": 0.9286
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 3582,
+    "mean_abs": 13.29,
+    "mean_signed": 13.15,
+    "median_abs": 13.0
+  },
+  "frame_key_release": {
+    "precision": 0.7536,
+    "recall": 0.5967,
+    "f1": 0.666
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9274,
+    "recall": 0.1603,
+    "f1": 0.2733
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.14.1+cpu"
+  },
+  "split": "valid",
+  "record_time": "2024-09-02_23-22-31",
+  "composer": "Debussy",
+  "piece": "Images 3. Mouvement",
+  "audio_dur_s": 389.41,
+  "transcribe_seconds": 249.9
+}

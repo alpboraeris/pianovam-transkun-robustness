@@ -1,0 +1,71 @@
+{
+  "est": "2024-09-02_15-05-42.mid",
+  "tsv": "2024-09-02_15-05-42.tsv",
+  "n_ref_notes": 2749,
+  "n_est_notes": 2729,
+  "est_pedal_presses": 298,
+  "onset_50ms": {
+    "precision": 0.9993,
+    "recall": 0.992,
+    "f1": 0.9956
+  },
+  "onset_100ms": {
+    "precision": 0.9993,
+    "recall": 0.992,
+    "f1": 0.9956
+  },
+  "onset_offset_key_release": {
+    "precision": 0.4918,
+    "recall": 0.4882,
+    "f1": 0.49
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4419,
+    "recall": 0.4387,
+    "f1": 0.4403
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1359,
+    "recall": 0.135,
+    "f1": 0.1355
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1187,
+    "recall": 0.1179,
+    "f1": 0.1183
+  },
+  "onset_velocity": {
+    "precision": 0.9648,
+    "recall": 0.9578,
+    "f1": 0.9613
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 2727,
+    "mean_abs": 11.21,
+    "mean_signed": 11.2,
+    "median_abs": 11.0
+  },
+  "frame_key_release": {
+    "precision": 0.7202,
+    "recall": 0.7271,
+    "f1": 0.7236
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9253,
+    "recall": 0.3359,
+    "f1": 0.4929
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.14.1+cpu"
+  },
+  "split": "valid",
+  "record_time": "2024-09-02_15-05-42",
+  "composer": "Nam Ku Min",
+  "piece": "Reminiscence",
+  "audio_dur_s": 483.961,
+  "transcribe_seconds": 308.4
+}

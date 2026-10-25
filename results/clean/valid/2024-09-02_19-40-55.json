@@ -1,0 +1,71 @@
+{
+  "est": "2024-09-02_19-40-55.mid",
+  "tsv": "2024-09-02_19-40-55.tsv",
+  "n_ref_notes": 1886,
+  "n_est_notes": 1870,
+  "est_pedal_presses": 262,
+  "onset_50ms": {
+    "precision": 0.9979,
+    "recall": 0.9894,
+    "f1": 0.9936
+  },
+  "onset_100ms": {
+    "precision": 0.9984,
+    "recall": 0.9899,
+    "f1": 0.9941
+  },
+  "onset_offset_key_release": {
+    "precision": 0.5476,
+    "recall": 0.5429,
+    "f1": 0.5453
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4417,
+    "recall": 0.438,
+    "f1": 0.4398
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1588,
+    "recall": 0.1575,
+    "f1": 0.1581
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1321,
+    "recall": 0.131,
+    "f1": 0.1315
+  },
+  "onset_velocity": {
+    "precision": 0.9342,
+    "recall": 0.9263,
+    "f1": 0.9302
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 1866,
+    "mean_abs": 9.07,
+    "mean_signed": 9.03,
+    "median_abs": 9.0
+  },
+  "frame_key_release": {
+    "precision": 0.7581,
+    "recall": 0.8399,
+    "f1": 0.7969
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9332,
+    "recall": 0.4495,
+    "f1": 0.6068
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.14.1+cpu"
+  },
+  "split": "valid",
+  "record_time": "2024-09-02_19-40-55",
+  "composer": "M. Ravel",
+  "piece": "Sonatine Mvt.1",
+  "audio_dur_s": 425.38,
+  "transcribe_seconds": 275.0
+}

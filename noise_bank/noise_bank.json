@@ -1,0 +1,143 @@
+{
+  "sample_rate": 44100,
+  "max_seconds": 300.0,
+  "crossfade_s": 0.5,
+  "rms": 0.1,
+  "format": "mono 32-bit float WAV",
+  "speaker_seed": 0,
+  "speakers": [
+    "251",
+    "5338",
+    "6345"
+  ],
+  "white_noise": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "note": "generated in run_noise.py, Gaussian, not stored"
+  },
+  "versions": {
+    "python": "3.12.0",
+    "numpy": "2.5.3",
+    "soundfile": "0.14.0",
+    "soxr": "1.1.0"
+  },
+  "excerpts": [
+    {
+      "category": "speech",
+      "description": "LibriSpeech dev-clean speaker 251 (M), 42 utterances concatenated",
+      "source": "LibriSpeech/dev-clean/251/ (first 42 files in sorted order)",
+      "source_sample_rate": 16000,
+      "license": "CC BY 4.0",
+      "citation": "V. Panayotov et al., 'LibriSpeech: an ASR corpus based on public domain audio books', ICASSP 2015. https://www.openslr.org/12/",
+      "id": "speech_251",
+      "file": "speech_251.wav",
+      "duration_s": 299.5,
+      "sha256": "ff8be12c24c85b0355aed986f99f9de9e58b5a520aaf0a0917d6fd9241e3ad76"
+    },
+    {
+      "category": "speech",
+      "description": "LibriSpeech dev-clean speaker 5338 (F), 30 utterances concatenated",
+      "source": "LibriSpeech/dev-clean/5338/ (first 30 files in sorted order)",
+      "source_sample_rate": 16000,
+      "license": "CC BY 4.0",
+      "citation": "V. Panayotov et al., 'LibriSpeech: an ASR corpus based on public domain audio books', ICASSP 2015. https://www.openslr.org/12/",
+      "id": "speech_5338",
+      "file": "speech_5338.wav",
+      "duration_s": 299.5,
+      "sha256": "00d16d1a4ed988115ac7b14460129a3e3c56172a4f1a2d50df46baa285e39a89"
+    },
+    {
+      "category": "speech",
+      "description": "LibriSpeech dev-clean speaker 6345 (F), 51 utterances concatenated",
+      "source": "LibriSpeech/dev-clean/6345/ (first 51 files in sorted order)",
+      "source_sample_rate": 16000,
+      "license": "CC BY 4.0",
+      "citation": "V. Panayotov et al., 'LibriSpeech: an ASR corpus based on public domain audio books', ICASSP 2015. https://www.openslr.org/12/",
+      "id": "speech_6345",
+      "file": "speech_6345.wav",
+      "duration_s": 299.5,
+      "sha256": "7894cf6d4ab3596f90929a7b462041ccb0833ce1965ba7f9533e54c3ed47cd49"
+    },
+    {
+      "category": "environment",
+      "description": "PCAFETER: university cafeteria",
+      "source": "DEMAND/PCAFETER/ch01.wav",
+      "source_sha256": "af249ff8026cf3866f3fec6e4dd9d36cec44968083a4f004113dea6bbb995e8d",
+      "source_sample_rate": 48000,
+      "license": "see Zenodo record (CC BY 4.0 listed; PDF states CC BY-SA 3.0)",
+      "citation": "J. Thiemann, N. Ito, E. Vincent, 'The Diverse Environments Multi-channel Acoustic Noise Database (DEMAND)', Proc. Meetings on Acoustics 19, 2013. https://zenodo.org/records/1227121",
+      "id": "env_cafeteria",
+      "file": "env_cafeteria.wav",
+      "duration_s": 299.5,
+      "sha256": "dd131ac878c4509aa884c309b1ab87954051bb2ea53dbb5cad670f8153bb0620"
+    },
+    {
+      "category": "environment",
+      "description": "STRAFFIC: busy street with traffic",
+      "source": "DEMAND/STRAFFIC/ch01.wav",
+      "source_sha256": "5cd76b6a746746009de5d2b3e6955a3facbb7d1f9e5ba3450140372694dc33f1",
+      "source_sample_rate": 48000,
+      "license": "see Zenodo record (CC BY 4.0 listed; PDF states CC BY-SA 3.0)",
+      "citation": "J. Thiemann, N. Ito, E. Vincent, 'The Diverse Environments Multi-channel Acoustic Noise Database (DEMAND)', Proc. Meetings on Acoustics 19, 2013. https://zenodo.org/records/1227121",
+      "id": "env_street",
+      "file": "env_street.wav",
+      "duration_s": 299.5,
+      "sha256": "ae8340b3c1d23958b32c39269a4ba19a07e038b3a5d9e9a42384d77032824332"
+    },
+    {
+      "category": "environment",
+      "description": "DWASHING: washing machine in a laundry room",
+      "source": "DEMAND/DWASHING/ch01.wav",
+      "source_sha256": "ff033b73096b456e83fa0fbf21625a80fcbb24af6c3c1bfe9aa94587ca64f394",
+      "source_sample_rate": 48000,
+      "license": "see Zenodo record (CC BY 4.0 listed; PDF states CC BY-SA 3.0)",
+      "citation": "J. Thiemann, N. Ito, E. Vincent, 'The Diverse Environments Multi-channel Acoustic Noise Database (DEMAND)', Proc. Meetings on Acoustics 19, 2013. https://zenodo.org/records/1227121",
+      "id": "env_washing",
+      "file": "env_washing.wav",
+      "duration_s": 299.5,
+      "sha256": "92b8990417cfe025323752af31f7a58b73417fe66953c953c9f82584c1e487b6"
+    },
+    {
+      "category": "music",
+      "description": "Borodin, String Quartet No. 1, I. Moderato - Allegro; Musopen String Quartet (string quartet)",
+      "source": "music/AlexanderBorodin-StringQuartetNo.1InAMajor-01-Moderato-Allegro.flac",
+      "source_sha256": "6a5391cddd6d3f37d6b5ffd221175e5b6a6c91cd6cb17ea715096c9e2324e899",
+      "source_sample_rate": 48000,
+      "license": "Public Domain Mark 1.0",
+      "citation": "https://archive.org/details/MusopenCollectionAsFlac",
+      "id": "music_strings",
+      "file": "music_strings.wav",
+      "duration_s": 299.5,
+      "sha256": "88a268ad373f3e5ae4f1199a6d5248f30f3465cb896b3b12ce6f568811f2cd37"
+    },
+    {
+      "category": "music",
+      "description": "Beethoven, Symphony No. 3 'Eroica', I. Allegro con brio; Musopen recording (symphony orchestra)",
+      "source": "music/LudwigVanBeethoven-SymphonyNo.3InEFlatMajorEroicaOp.55-01-AllegroConBrio.flac",
+      "source_sha256": "7a4b4d89c3107d2e57964879f2ff75ed2a36a88ea758f12f584ac9a35430f24a",
+      "source_sample_rate": 48000,
+      "license": "Public Domain Mark 1.0",
+      "citation": "https://archive.org/details/MusopenCollectionAsFlac",
+      "id": "music_orchestra",
+      "file": "music_orchestra.wav",
+      "duration_s": 299.5,
+      "sha256": "f6d75400a8ad2366b544c40a573ea7ca653e04fcea3f865fa3dc0ddb8fb03113"
+    },
+    {
+      "category": "music",
+      "description": "Sousa, The Stars and Stripes Forever; U.S. Marine Corps Band (brass band with percussion)",
+      "source": "music/stars_and_stripes_forever.ogg",
+      "source_sha256": "c1a3c251bb3d20e3fe6c78b3714725c71ff3a64d3ea0377dcb5bdbc87975059e",
+      "source_sample_rate": 44100,
+      "license": "Public domain (creativecommons.org/licenses/publicdomain)",
+      "citation": "https://archive.org/details/StarsAndStripesForever",
+      "id": "music_brassband",
+      "file": "music_brassband.wav",
+      "duration_s": 211.17,
+      "sha256": "10540e2011862cb4a09816f70d52a5a3d08c20cb087cde11c09513a0ec5dd3d1"
+    }
+  ]
+}

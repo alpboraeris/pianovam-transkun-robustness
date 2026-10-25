@@ -1,0 +1,38 @@
+# ---- Large or third-party data: NOT on GitHub (rebuilt by the scripts) ----
+# PianoVAM audio/MIDI/TSV (~1 GB) -> prepare_pianovam.py downloads it again (pinned revision)
+# ...but keep our own check files (small, evidence for section 1)
+data/**
+!data/**/
+!data/PianoVAM_v1.1/manifest.csv
+!data/PianoVAM_v1.1/manifest.json
+!data/PianoVAM_v1.1/ground_truth_check.csv
+# Raw noise sources (LibriSpeech, DEMAND, music) -> download links in README / noise_bank.json
+noise_sources/
+*.zip
+*.tar.gz
+# Noise excerpts (~50 MB each) -> build_noise_bank.py rebuilds them; keep only the record
+noise_bank/*.wav
+# Recreated noisy audio and temporary mixes -> make_listening_examples.py / run_noise.py
+listening/
+tmp_mixtures/
+*.part.mid
+
+# ---- Audio in general ----
+*.wav
+*.flac
+*.mp3
+*.ogg
+
+# ---- Python / editor ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- One-off test files ----
+test_output.mid
+results/clean/2024-02-15_20-07-54.json

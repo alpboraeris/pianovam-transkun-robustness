@@ -1,0 +1,71 @@
+{
+  "est": "2024-02-15_21-33-36.mid",
+  "tsv": "2024-02-15_21-33-36.tsv",
+  "n_ref_notes": 3643,
+  "n_est_notes": 3535,
+  "est_pedal_presses": 185,
+  "onset_50ms": {
+    "precision": 0.998,
+    "recall": 0.9684,
+    "f1": 0.983
+  },
+  "onset_100ms": {
+    "precision": 0.9986,
+    "recall": 0.969,
+    "f1": 0.9836
+  },
+  "onset_offset_key_release": {
+    "precision": 0.7098,
+    "recall": 0.6887,
+    "f1": 0.6991
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.7018,
+    "recall": 0.681,
+    "f1": 0.6913
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1494,
+    "recall": 0.1449,
+    "f1": 0.1471
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1429,
+    "recall": 0.1386,
+    "f1": 0.1407
+  },
+  "onset_velocity": {
+    "precision": 0.959,
+    "recall": 0.9306,
+    "f1": 0.9446
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 3528,
+    "mean_abs": 6.89,
+    "mean_signed": 6.26,
+    "median_abs": 6.0
+  },
+  "frame_key_release": {
+    "precision": 0.787,
+    "recall": 0.6716,
+    "f1": 0.7247
+  },
+  "frame_pedal_extended": {
+    "precision": 0.975,
+    "recall": 0.1358,
+    "f1": 0.2384
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.14.1+cpu"
+  },
+  "split": "valid",
+  "record_time": "2024-02-15_21-33-36",
+  "composer": "L. Beethoven",
+  "piece": "Piano Sonata No.23 Mvt.3",
+  "audio_dur_s": 335.979,
+  "transcribe_seconds": 226.4
+}

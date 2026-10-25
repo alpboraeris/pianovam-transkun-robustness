@@ -1,0 +1,10 @@
+﻿record_time,session,composer,piece,performer,skill,matched_notes,share_released_pedal_down,share_released_half_pedal,cc64_distinct_values,all_median_err_ms,up_n,up_median_ms,up_median_abs_ms,up_share_late,up_share_early,up_share_within_tol,down_n,down_median_ms,down_median_abs_ms,down_share_late,down_share_early,down_share_within_tol,down_share_closer_to_key_release,pedal_frame_precision,pedal_frame_recall,pedal_frame_f1
+2024-02-15_20-07-54,2024-02,F. Chopin,"Grande Valse Brillante, Op.18",Doha,Intermediate,5267,0.937,0.063,80,-10.4,331,-3.1,6.2,0.003,0.006,0.991,4936,-11.5,20.8,0.082,0.163,0.755,0.93,0.999,0.946,0.972
+2024-02-15_20-38-23,2024-02,T. Badarzewska,The Virgin's Prayer,Doha,Intermediate,3357,0.997,0.003,72,2.6,9,5.2,5.2,0.0,0.0,1.0,3348,2.6,18.2,0.136,0.114,0.749,0.956,1.0,0.964,0.982
+2024-02-15_21-33-36,2024-02,L. Beethoven,Piano Sonata No.23 Mvt.3,Doha,Intermediate,3528,0.893,0.107,76,-1.6,378,4.7,7.3,0.016,0.011,0.974,3150,-4.2,29.7,0.103,0.219,0.677,0.954,0.998,0.938,0.967
+2024-03-13_11-54-57,2024-03,S. Prokofiev,Piano Concerto No.3,Yonghyun,Advanced,15252,0.57,0.43,76,-10.9,6565,-9.9,10.9,0.025,0.021,0.954,8687,-12.0,22.9,0.111,0.189,0.7,0.942,0.998,0.746,0.854
+2024-09-02_12-45-12,2024-09,J. S. Bach,Italian Concerto Mvt.1,Junhyung,Advanced,2795,0.0,0.0,1,4.2,2795,4.2,5.7,0.011,0.01,0.979,0,,,,,,,0.0,,
+2024-09-02_15-05-42,2024-09,Nam Ku Min,Reminiscence,Yujeong,Intermediate,2727,0.939,0.036,113,-8.3,165,-7.3,10.9,0.061,0.036,0.903,2562,-8.3,68.7,0.236,0.3,0.464,0.865,0.995,0.984,0.99
+2024-09-02_15-26-39,2024-09,Yiruma,Stay in memory,Yujeong,Intermediate,3722,0.981,0.013,113,50.0,69,-6.3,8.3,0.014,0.087,0.899,3653,52.1,100.5,0.411,0.197,0.392,0.834,0.998,0.965,0.981
+2024-09-02_19-40-55,2024-09,M. Ravel,Sonatine Mvt.1,Junhyung,Advanced,1866,0.959,0.04,113,-6.8,76,-1.0,10.2,0.013,0.118,0.868,1790,-7.3,64.1,0.227,0.239,0.534,0.808,0.998,0.971,0.985
+2024-09-02_23-22-31,2024-09,Debussy,Images 3. Mouvement,Junhyung,Advanced,3582,0.89,0.018,111,-37.5,393,-18.2,18.2,0.008,0.048,0.944,3189,-46.4,59.9,0.081,0.478,0.441,0.96,0.997,0.979,0.988
