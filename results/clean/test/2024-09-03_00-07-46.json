@@ -1,0 +1,71 @@
+{
+  "est": "2024-09-03_00-07-46.mid",
+  "tsv": "2024-09-03_00-07-46.tsv",
+  "n_ref_notes": 10929,
+  "n_est_notes": 10876,
+  "est_pedal_presses": 40,
+  "onset_50ms": {
+    "precision": 0.9994,
+    "recall": 0.9945,
+    "f1": 0.9969
+  },
+  "onset_100ms": {
+    "precision": 0.9994,
+    "recall": 0.9945,
+    "f1": 0.9969
+  },
+  "onset_offset_key_release": {
+    "precision": 0.9746,
+    "recall": 0.9699,
+    "f1": 0.9723
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.9655,
+    "recall": 0.9608,
+    "f1": 0.9632
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.9727,
+    "recall": 0.968,
+    "f1": 0.9703
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.9637,
+    "recall": 0.959,
+    "f1": 0.9613
+  },
+  "onset_velocity": {
+    "precision": 0.9806,
+    "recall": 0.9758,
+    "f1": 0.9782
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 10869,
+    "mean_abs": 11.22,
+    "mean_signed": 11.19,
+    "median_abs": 11.0
+  },
+  "frame_key_release": {
+    "precision": 0.9532,
+    "recall": 0.9668,
+    "f1": 0.9599
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9534,
+    "recall": 0.9639,
+    "f1": 0.9586
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-09-03_00-07-46",
+  "composer": "J. S. Bach",
+  "piece": "Italian Concerto Mvt.3",
+  "audio_dur_s": 1606.913,
+  "transcribe_seconds": 103.0
+}

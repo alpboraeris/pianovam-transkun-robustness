@@ -1,0 +1,71 @@
+{
+  "est": "2024-09-02_14-10-41.mid",
+  "tsv": "2024-09-02_14-10-41.tsv",
+  "n_ref_notes": 1292,
+  "n_est_notes": 1287,
+  "est_pedal_presses": 159,
+  "onset_50ms": {
+    "precision": 0.9992,
+    "recall": 0.9954,
+    "f1": 0.9973
+  },
+  "onset_100ms": {
+    "precision": 1.0,
+    "recall": 0.9961,
+    "f1": 0.9981
+  },
+  "onset_offset_key_release": {
+    "precision": 0.7265,
+    "recall": 0.7237,
+    "f1": 0.7251
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.5866,
+    "recall": 0.5844,
+    "f1": 0.5855
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.3232,
+    "recall": 0.322,
+    "f1": 0.3226
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.303,
+    "recall": 0.3019,
+    "f1": 0.3024
+  },
+  "onset_velocity": {
+    "precision": 0.9705,
+    "recall": 0.9667,
+    "f1": 0.9686
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 1286,
+    "mean_abs": 8.46,
+    "mean_signed": 8.39,
+    "median_abs": 9.0
+  },
+  "frame_key_release": {
+    "precision": 0.8775,
+    "recall": 0.9057,
+    "f1": 0.8914
+  },
+  "frame_pedal_extended": {
+    "precision": 0.977,
+    "recall": 0.6085,
+    "f1": 0.7499
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-09-02_14-10-41",
+  "composer": "D. Scarlatti",
+  "piece": "Sonata K.360",
+  "audio_dur_s": 291.952,
+  "transcribe_seconds": 24.8
+}

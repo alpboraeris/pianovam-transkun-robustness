@@ -36,3 +36,8 @@ Thumbs.db
 # ---- One-off test files ----
 test_output.mid
 results/clean/2024-02-15_20-07-54.json
+
+# Adapter project (separate, not part of the robustness study)
+adapter_inputs/
+adapter_stage0/
+kaggle_test_tmp/

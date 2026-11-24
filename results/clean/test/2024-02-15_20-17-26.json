@@ -1,0 +1,71 @@
+{
+  "est": "2024-02-15_20-17-26.mid",
+  "tsv": "2024-02-15_20-17-26.tsv",
+  "n_ref_notes": 5045,
+  "n_est_notes": 4896,
+  "est_pedal_presses": 338,
+  "onset_50ms": {
+    "precision": 0.9959,
+    "recall": 0.9665,
+    "f1": 0.981
+  },
+  "onset_100ms": {
+    "precision": 0.9959,
+    "recall": 0.9665,
+    "f1": 0.981
+  },
+  "onset_offset_key_release": {
+    "precision": 0.6495,
+    "recall": 0.6303,
+    "f1": 0.6398
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.6387,
+    "recall": 0.6198,
+    "f1": 0.6291
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1656,
+    "recall": 0.1608,
+    "f1": 0.1632
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1552,
+    "recall": 0.1506,
+    "f1": 0.1529
+  },
+  "onset_velocity": {
+    "precision": 0.9498,
+    "recall": 0.9217,
+    "f1": 0.9355
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 4876,
+    "mean_abs": 7.95,
+    "mean_signed": 7.24,
+    "median_abs": 8.0
+  },
+  "frame_key_release": {
+    "precision": 0.6287,
+    "recall": 0.7454,
+    "f1": 0.6821
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9614,
+    "recall": 0.1486,
+    "f1": 0.2575
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-02-15_20-17-26",
+  "composer": "R. Schubert",
+  "piece": "Piano Sonata No.19",
+  "audio_dur_s": 536.384,
+  "transcribe_seconds": 38.6
+}

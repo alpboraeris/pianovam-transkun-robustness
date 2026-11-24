@@ -1,0 +1,80 @@
+{
+  "est": "speech_251_snr+00.mid",
+  "tsv": "2024-02-14_20-10-08.tsv",
+  "n_ref_notes": 9357,
+  "n_est_notes": 8644,
+  "est_pedal_presses": 804,
+  "onset_50ms": {
+    "precision": 0.9832,
+    "recall": 0.9083,
+    "f1": 0.9443
+  },
+  "onset_100ms": {
+    "precision": 0.9853,
+    "recall": 0.9102,
+    "f1": 0.9463
+  },
+  "onset_offset_key_release": {
+    "precision": 0.4507,
+    "recall": 0.4164,
+    "f1": 0.4329
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4246,
+    "recall": 0.3922,
+    "f1": 0.4078
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.0832,
+    "recall": 0.0768,
+    "f1": 0.0799
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.0668,
+    "recall": 0.0617,
+    "f1": 0.0641
+  },
+  "onset_velocity": {
+    "precision": 0.938,
+    "recall": 0.8665,
+    "f1": 0.9008
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 8499,
+    "mean_abs": 4.27,
+    "mean_signed": -0.71,
+    "median_abs": 3.0
+  },
+  "frame_key_release": {
+    "precision": 0.627,
+    "recall": 0.605,
+    "f1": 0.6158
+  },
+  "frame_pedal_extended": {
+    "precision": 0.928,
+    "recall": 0.1725,
+    "f1": 0.2909
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-02-14_20-10-08",
+  "noise_type": "speech",
+  "noise_id": "speech_251",
+  "snr_db": 0,
+  "design": "first",
+  "mix": {
+    "noise_gain": 0.8137886173057414,
+    "mix_scale": 0.7548260666927963,
+    "peak_before_scale": 1.323483705825145,
+    "snr_check_db": 0.0,
+    "channels": 1,
+    "frames": 57322944
+  },
+  "transcribe_seconds": 83.8
+}

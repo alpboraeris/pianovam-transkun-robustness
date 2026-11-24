@@ -1,0 +1,80 @@
+{
+  "est": "music_strings_snr-20.mid",
+  "tsv": "2024-02-15_20-47-59.tsv",
+  "n_ref_notes": 1662,
+  "n_est_notes": 1306,
+  "est_pedal_presses": 126,
+  "onset_50ms": {
+    "precision": 0.291,
+    "recall": 0.2286,
+    "f1": 0.2561
+  },
+  "onset_100ms": {
+    "precision": 0.2933,
+    "recall": 0.2304,
+    "f1": 0.2581
+  },
+  "onset_offset_key_release": {
+    "precision": 0.124,
+    "recall": 0.0975,
+    "f1": 0.1092
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.121,
+    "recall": 0.0951,
+    "f1": 0.1065
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.0168,
+    "recall": 0.0132,
+    "f1": 0.0148
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.0054,
+    "recall": 0.0042,
+    "f1": 0.0047
+  },
+  "onset_velocity": {
+    "precision": 0.206,
+    "recall": 0.1619,
+    "f1": 0.1813
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 380,
+    "mean_abs": 9.03,
+    "mean_signed": -6.34,
+    "median_abs": 8.0
+  },
+  "frame_key_release": {
+    "precision": 0.1554,
+    "recall": 0.124,
+    "f1": 0.1379
+  },
+  "frame_pedal_extended": {
+    "precision": 0.6053,
+    "recall": 0.0265,
+    "f1": 0.0508
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-02-15_20-47-59",
+  "noise_type": "music",
+  "noise_id": "music_strings",
+  "snr_db": -20,
+  "design": "first",
+  "mix": {
+    "noise_gain": 6.39908875899039,
+    "mix_scale": 0.15219068525610785,
+    "peak_before_scale": 6.564133661129614,
+    "snr_check_db": -20.0,
+    "channels": 1,
+    "frames": 13560692
+  },
+  "transcribe_seconds": 25.7
+}

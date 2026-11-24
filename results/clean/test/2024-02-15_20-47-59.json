@@ -1,0 +1,71 @@
+{
+  "est": "2024-02-15_20-47-59.mid",
+  "tsv": "2024-02-15_20-47-59.tsv",
+  "n_ref_notes": 1662,
+  "n_est_notes": 1631,
+  "est_pedal_presses": 89,
+  "onset_50ms": {
+    "precision": 0.9963,
+    "recall": 0.9777,
+    "f1": 0.9869
+  },
+  "onset_100ms": {
+    "precision": 0.9963,
+    "recall": 0.9777,
+    "f1": 0.9869
+  },
+  "onset_offset_key_release": {
+    "precision": 0.5101,
+    "recall": 0.5006,
+    "f1": 0.5053
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4709,
+    "recall": 0.4621,
+    "f1": 0.4664
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.0233,
+    "recall": 0.0229,
+    "f1": 0.0231
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.0116,
+    "recall": 0.0114,
+    "f1": 0.0115
+  },
+  "onset_velocity": {
+    "precision": 0.9479,
+    "recall": 0.9302,
+    "f1": 0.939
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 1625,
+    "mean_abs": 6.16,
+    "mean_signed": 5.55,
+    "median_abs": 6.0
+  },
+  "frame_key_release": {
+    "precision": 0.4932,
+    "recall": 0.7544,
+    "f1": 0.5965
+  },
+  "frame_pedal_extended": {
+    "precision": 0.9835,
+    "recall": 0.0825,
+    "f1": 0.1523
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-02-15_20-47-59",
+  "composer": "N. Tsuru",
+  "piece": "Last Carnival",
+  "audio_dur_s": 307.499,
+  "transcribe_seconds": 25.9
+}

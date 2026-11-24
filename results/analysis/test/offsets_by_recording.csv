@@ -1,0 +1,10 @@
+﻿record_time,session,composer,piece,performer,skill,matched_notes,share_released_pedal_down,share_released_half_pedal,cc64_distinct_values,all_median_err_ms,up_n,up_median_ms,up_median_abs_ms,up_share_late,up_share_early,up_share_within_tol,down_n,down_median_ms,down_median_abs_ms,down_share_late,down_share_early,down_share_within_tol,down_share_closer_to_key_release,pedal_frame_precision,pedal_frame_recall,pedal_frame_f1
+2024-02-14_19-55-17,2024-02,C. Saint-Saens,Piano Concerto No.2,Yonghyun,Advanced,5326,0.989,0.011,75,-5.2,58,12.5,33.3,0.19,0.155,0.655,5268,-5.7,31.2,0.133,0.24,0.628,0.952,1.0,0.962,0.98
+2024-02-14_20-10-08,2024-02,N. Kapustin,Concert Etude No.7,Yonghyun,Advanced,9063,0.972,0.028,70,-4.7,250,-6.2,20.1,0.08,0.16,0.76,8813,-4.7,55.2,0.229,0.267,0.504,0.88,0.986,0.919,0.952
+2024-02-15_20-17-26,2024-02,R. Schubert,Piano Sonata No.19,Doha,Intermediate,4876,0.884,0.116,80,-5.2,564,-6.2,7.3,0.007,0.02,0.973,4312,-4.7,35.9,0.205,0.186,0.609,0.92,0.991,0.944,0.967
+2024-02-15_20-47-59,2024-02,N. Tsuru,Last Carnival,Doha,Intermediate,1625,0.999,0.001,67,19.3,1,5.2,5.2,0.0,0.0,1.0,1624,19.5,57.8,0.367,0.122,0.511,0.902,0.999,0.977,0.988
+2024-02-17_21-44-37,2024-02,Yiruma,Kiss The Rain,Changyun,Beginner,558,0.98,0.02,65,4.7,11,4.2,5.7,0.091,0.0,0.909,547,4.7,203.6,0.377,0.318,0.305,0.947,1.0,0.937,0.968
+2024-09-02_14-10-41,2024-09,D. Scarlatti,Sonata K.360,Junhyung,Advanced,1286,0.776,0.03,111,9.4,288,7.3,9.4,0.003,0.042,0.955,998,14.1,52.9,0.241,0.098,0.66,0.81,0.978,0.961,0.969
+2024-09-02_21-04-45,2024-09,Junhyung,Improvisation,Junhyung,Advanced,2631,0.967,0.024,113,-11.5,86,-3.9,11.5,0.116,0.058,0.826,2545,-13.0,70.8,0.224,0.323,0.453,0.915,0.999,0.986,0.992
+2024-09-03_00-07-46,2024-09,J. S. Bach,Italian Concerto Mvt.3,Junhyung,Advanced,10869,0.005,0.001,77,-5.7,10817,-5.7,7.8,0.01,0.012,0.978,52,-46.9,54.7,0.058,0.462,0.481,0.981,0.421,0.952,0.584
+2024-09-03_00-44-45,2024-09,Hanon,Hanon Exercises No.1,Junhyung,Advanced,5028,0.002,0.0,17,-7.8,5020,-7.8,9.4,0.006,0.004,0.989,8,568.8,568.8,0.875,0.0,0.125,0.25,0.788,1.0,0.881

@@ -1,0 +1,80 @@
+{
+  "est": "env_cafeteria_snr-10.mid",
+  "tsv": "2024-02-15_20-17-26.tsv",
+  "n_ref_notes": 5045,
+  "n_est_notes": 1930,
+  "est_pedal_presses": 108,
+  "onset_50ms": {
+    "precision": 0.9244,
+    "recall": 0.3536,
+    "f1": 0.5115
+  },
+  "onset_100ms": {
+    "precision": 0.928,
+    "recall": 0.355,
+    "f1": 0.5135
+  },
+  "onset_offset_key_release": {
+    "precision": 0.4984,
+    "recall": 0.1907,
+    "f1": 0.2758
+  },
+  "onset_offset_fixed50ms_key_release": {
+    "precision": 0.4948,
+    "recall": 0.1893,
+    "f1": 0.2738
+  },
+  "onset_offset_pedal_extended": {
+    "precision": 0.1813,
+    "recall": 0.0694,
+    "f1": 0.1004
+  },
+  "onset_offset_fixed50ms_pedal_extended": {
+    "precision": 0.1663,
+    "recall": 0.0636,
+    "f1": 0.092
+  },
+  "onset_velocity": {
+    "precision": 0.7933,
+    "recall": 0.3035,
+    "f1": 0.439
+  },
+  "onset_velocity_note": "mir_eval fits a linear mapping from estimated to reference velocity before applying the 0.1 tolerance",
+  "raw_velocity_error": {
+    "matched_notes": 1784,
+    "mean_abs": 7.08,
+    "mean_signed": 4.06,
+    "median_abs": 6.0
+  },
+  "frame_key_release": {
+    "precision": 0.5227,
+    "recall": 0.251,
+    "f1": 0.3392
+  },
+  "frame_pedal_extended": {
+    "precision": 0.8838,
+    "recall": 0.0553,
+    "f1": 0.1042
+  },
+  "versions": {
+    "mir_eval": "0.8.2",
+    "transkun": "2.0.1",
+    "pretty_midi": "0.2.11.post0",
+    "torch": "2.11.0+cu130"
+  },
+  "split": "test",
+  "record_time": "2024-02-15_20-17-26",
+  "noise_type": "environment",
+  "noise_id": "env_cafeteria",
+  "snr_db": -10,
+  "design": "first",
+  "mix": {
+    "noise_gain": 3.5106118307736023,
+    "mix_scale": 0.10019868611234792,
+    "peak_before_scale": 9.970190615871648,
+    "snr_check_db": -10.0,
+    "channels": 1,
+    "frames": 23654535
+  },
+  "transcribe_seconds": 39.0
+}
